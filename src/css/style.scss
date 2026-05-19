@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "mixins.scss";
+@import "variables.scss";
+@import "./grid_system.scss";
+@import "./reset.css";
+
+:root {
+    --primary-color-blue: #0328ee;
+    --primary-color-white: #ffffff;
+    --primary-color-night: #010725;
+    --primary-color-darkBlue: #010d50;
+    --secondary-color-hoverBlue: #031fb4;
+    --secondary-color-grey: #ffffff1a;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 46px;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text-md {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.text-sm {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blue-btn{
+    background-color: var(--primary-color-blue);
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover{
+        background-color: var(--secondary-color-hoverBlue);
+    }
+}
+
+.grey-btn{
+    background-color: var(--secondary-color-grey);
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover{
+        background-color: var(--primary-color-blue);
+    }
+}
+
+.white-btn{
+    background-color: var(--primary-color-white);
+    color: var(--primary-color-blue);
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover{
+        background-color: var(--secondary-color-hoverBlue);
+        color: var(--primary-color-white);
+    }
+}
+
+.play-btn{
+    border-radius: 50%;
+    color: var(--primary-color-white);
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        color: var(--primary-color-blue);
+        border: 1px solid var(--primary-color-blue);
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: $xs) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: $sm) {
+    .container {
+        max-width: 720px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: $md) {
+    section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: $lg) {
+    .container {
+        max-width: 1140px;
+    }
+
+    section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    h1 {
+        font-size: 66px;
+        line-height: 80px;
+    }
+
+    h2 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: $xl) {
+    .container {
+        max-width: 1320px;
+    }
+}
