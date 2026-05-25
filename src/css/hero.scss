@@ -1,0 +1,159 @@
+.hero {
+    &__info {
+        @include position();
+        color: var(--primary-color-white);
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    &__title {
+        align-self: start;
+
+        h1 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__buttons {
+        @include position();
+        gap: 15px;
+        width: 100%;
+
+        button {
+            width: 360px;
+            padding: 25px 40px;
+            color: var(--primary-color-white);
+            text-transform: uppercase;
+        }
+    }
+
+    &__image {
+        @include position();
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__features {
+        margin-top: 80px;
+
+        p {
+            color: var(--primary-color-white);
+            margin-bottom: 25px;
+            text-align: center;
+        }
+    }
+
+    &__companies {
+        @include position($direction: row, $justify: space-around);
+        flex-wrap: wrap;
+        gap: 15px;
+
+        img {
+            width: 134px;
+        }
+    }
+}
+
+.hero-bg {
+    overflow: hidden;
+    background: radial-gradient(400px circle at 80% 70%,
+            var(--primary-color-blue),
+            var(--primary-color-darkBlue) 50%);
+}
+
+@media (min-width: $sm) {
+    .hero {
+        &__companies {
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .hero {
+        &__info {
+            margin-bottom: 0px;
+        }
+
+        &__image {
+            align-items: end;
+            width: 120%;
+
+            img {
+                transform: translateX(30%);
+            }
+        }
+
+        &__buttons {
+            @include position($direction: row, $justify: start);
+
+            button {
+                max-width: 185px;
+                padding: 15px 25px;
+            }
+        }
+
+        &__features {
+            margin-top: 140px;
+
+            p {
+                margin-bottom: 35px;
+            }
+        }
+
+        &__companies {
+            img {
+                width: 170px;
+            }
+        }
+    }
+
+    .hero-bg {
+        background: radial-gradient(500px circle at 80% 60%,
+                var(--primary-color-blue),
+                var(--primary-color-darkBlue) 60%);
+    }
+}
+
+@media (min-width: $lg) {
+    .hero {
+        &__info {
+            margin-bottom: 0px;
+        }
+
+        &__image {
+            align-items: end;
+
+            img {
+                transform: translateX(30%);
+                width: 120%;
+            }
+        }
+
+        &__buttons {
+            @include position($direction: row, $justify: start);
+
+            button {
+                max-width: 210px;
+                padding: 25px 40px;
+            }
+        }
+
+        &__companies {
+            img {
+                width: initial;
+            }
+        }
+    }
+
+    .hero-bg {
+        background: radial-gradient(500px circle at 80% 75%,
+                var(--primary-color-blue),
+                var(--primary-color-darkBlue) 60%);
+    }
+}
