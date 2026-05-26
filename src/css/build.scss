@@ -1,0 +1,136 @@
+.build-bg {
+    overflow: hidden;
+    background: radial-gradient(800px circle at 0% 45%,
+            var(--primary-color-blue) 0%,
+            var(--primary-color-darkBlue) 70%);
+}
+
+.build {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 15px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__content {
+        @include position();
+        gap: 40px;
+
+        button {
+            max-width: 210px;
+            padding: 25px 40px;
+            color: var(--primary-color-white);
+        }
+    }
+
+    &__cards {
+        @include position();
+        gap: 15px;
+    }
+
+    &__sideCards {
+        @include position();
+        gap: 16px;
+    }
+
+    &__smallCard,
+    &__bigCard {
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        max-width: 395px;
+    }
+
+    &__smallCard {
+        @include position($align: start);
+        gap: 20px;
+        background-color: var(--primary-color-darkBlue);
+        padding: 50px 25px;
+    }
+
+    &__smallCardTitle {
+        h4 {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__bigCard {
+        @include position();
+        background-color: var(--primary-color-blue);
+        padding: 45px 35px 0px;
+        gap: 35px;
+    }
+
+    &__bigCardTitle {
+        align-self: start;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .build-bg {
+        background: radial-gradient(800px circle at 0% 55%,
+                var(--primary-color-blue) 0%,
+                var(--primary-color-darkBlue) 75%);
+    }
+}
+
+@media (min-width: $md) {
+    .build-bg {
+        background: radial-gradient(600px circle at 55% 50%,
+                var(--primary-color-blue) 0%,
+                var(--primary-color-darkBlue) 80%);
+    }
+
+    .build {
+        &__title {
+            text-align: center;
+        }
+
+        &__cards {
+            flex-direction: row;
+            align-items: start;
+        }
+
+        &__bigCard {
+            max-height: 680px;
+            align-items: unset;
+            overflow: hidden;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .build {
+        &__title {
+            margin-bottom: 80px;
+        }
+
+        &__cards {
+            gap: 25px;
+        }
+
+        &__content {
+            gap: 50px;
+        }
+
+        &__sideCards {
+            gap: 32px;
+        }
+
+        &__smallCard {
+            max-width: 325px;
+        }
+
+        &__bigCard {
+            align-items: center;
+        }
+    }
+}
