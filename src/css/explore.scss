@@ -1,0 +1,58 @@
+.explore-bg {
+    // overflow: hidden;
+    background-color: var(--primary-color-blue);
+}
+
+.explore {
+    padding-bottom: 0px;
+
+    &__content {
+        @include position();
+
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 22px 30px;
+        }
+    }
+
+    &__title {
+        color: var(--primary-color-white);
+        text-align: center;
+        margin-bottom: 15px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__phone {
+        @include position();
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: $md) {
+    .explore {
+        padding-top: 0px;
+
+        &__content {
+            align-items: start;
+
+            button {
+                width: initial;
+                max-width: 210px;
+                padding: 22px 45px;
+            }
+        }
+
+        &__title {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        &__phone {
+            margin-top: -60px;
+        }
+    }
+}
