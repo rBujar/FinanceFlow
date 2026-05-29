@@ -3,7 +3,6 @@
 @import "variables.scss";
 @import "./grid_system.scss";
 @import "./reset.css";
-@import "./article.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -54,11 +53,6 @@ h2 {
     line-height: 36px;
 }
 
-.text-lg{
-    font-size: 22px;
-    line-height: 32px;
-}
-
 .text-md {
     font-size: 18px;
     line-height: 32px;
@@ -75,10 +69,6 @@ h2 {
 
 .text-regular {
     font-weight: 400;
-}
-
-.text-caps{
-    text-transform: uppercase;
 }
 
 button {
