@@ -2,7 +2,7 @@
     overflow: hidden;
     background: radial-gradient(600px circle at 100% 60%,
             var(--primary-color-blue) 0%,
-            var(--primary-color-darkBlue) 60%);
+            var(--secondary-color-bg) 60%);
 }
 
 .token {
@@ -50,7 +50,7 @@
         overflow: hidden;
         background: radial-gradient(600px circle at 50% 50%,
                 var(--primary-color-blue) 0%,
-                var(--primary-color-darkBlue) 65%);
+                var(--secondary-color-bg) 65%);
     }
 
     .token {
