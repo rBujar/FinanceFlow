@@ -2,7 +2,7 @@
     overflow: hidden;
     background: radial-gradient(800px circle at 0% 45%,
             var(--primary-color-blue) 0%,
-            var(--primary-color-darkBlue) 70%);
+            var(--secondary-color-bg) 70%);
 }
 
 .build {
@@ -78,7 +78,7 @@
     .build-bg {
         background: radial-gradient(800px circle at 0% 55%,
                 var(--primary-color-blue) 0%,
-                var(--primary-color-darkBlue) 75%);
+                var(--secondary-color-bg) 75%);
     }
 }
 
@@ -86,7 +86,7 @@
     .build-bg {
         background: radial-gradient(600px circle at 55% 50%,
                 var(--primary-color-blue) 0%,
-                var(--primary-color-darkBlue) 80%);
+                var(--secondary-color-bg) 80%);
     }
 
     .build {
