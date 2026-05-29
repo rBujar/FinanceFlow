@@ -1,3 +1,10 @@
+.hero-bg {
+    overflow: hidden;
+    background: radial-gradient(400px circle at 80% 70%,
+            var(--primary-color-blue),
+            var(--secondary-color-bg) 50%);
+}
+
 .hero {
     &__info {
         @include position();
@@ -57,13 +64,6 @@
     }
 }
 
-.hero-bg {
-    overflow: hidden;
-    background: radial-gradient(400px circle at 80% 70%,
-            var(--primary-color-blue),
-            var(--primary-color-darkBlue) 50%);
-}
-
 @media (min-width: $sm) {
     .hero {
         &__companies {
@@ -75,6 +75,12 @@
 }
 
 @media (min-width: $md) {
+    .hero-bg {
+        background: radial-gradient(500px circle at 80% 60%,
+                var(--primary-color-blue),
+                var(--secondary-color-bg) 60%);
+    }
+
     .hero {
         &__info {
             margin-bottom: 0px;
@@ -112,15 +118,15 @@
             }
         }
     }
-
-    .hero-bg {
-        background: radial-gradient(500px circle at 80% 60%,
-                var(--primary-color-blue),
-                var(--primary-color-darkBlue) 60%);
-    }
 }
 
 @media (min-width: $lg) {
+    .hero-bg {
+        background: radial-gradient(500px circle at 80% 75%,
+                var(--primary-color-blue),
+                var(--secondary-color-bg) 60%);
+    }
+
     .hero {
         &__info {
             margin-bottom: 0px;
@@ -149,11 +155,5 @@
                 width: initial;
             }
         }
-    }
-
-    .hero-bg {
-        background: radial-gradient(500px circle at 80% 75%,
-                var(--primary-color-blue),
-                var(--primary-color-darkBlue) 60%);
     }
 }
