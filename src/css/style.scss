@@ -2,6 +2,7 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "./grid_system.scss";
+@import "./financeflow.css";
 @import "./reset.css";
 
 :root {
@@ -11,6 +12,7 @@
     --primary-color-darkBlue: #010d50;
     --secondary-color-hoverBlue: #031fb4;
     --secondary-color-grey: #ffffff1a;
+    --secondary-color-bg: #010725;
 }
 
 body {
@@ -69,6 +71,10 @@ h2 {
 
 .text-regular {
     font-weight: 400;
+}
+
+.text-caps{
+    text-transform: uppercase;
 }
 
 button {
