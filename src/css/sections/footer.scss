@@ -1,8 +1,11 @@
+.footer-bg {
+    background-color: var(--primary-color-darkBlue);
+}
+
 .footer {
     @include position($align: start);
     color: var(--primary-color-white);
     padding: 40px 25px 65px 25px;
-    height: 100vh;
 
     &__logo {
         @include position();

@@ -1,4 +1,4 @@
-<div class="bg-dark">
+<div class="footer-bg">
     <div class="footer container">
         <div class="footer__logo">
             <a href="../index.php"><img src="../src/assets/logo.png" alt=""></a>

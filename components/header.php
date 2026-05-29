@@ -1,4 +1,4 @@
-<div class="bg-dark">
+<div class="header-bg">
 <div class="header container">
     <div class="header__logo">
         <a href="../index.php"><img src="../src/assets/logo.png" alt="logo"></a>
