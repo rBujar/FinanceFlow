@@ -4,6 +4,9 @@
 @import "./grid_system.scss";
 @import "./financeflow.css";
 @import "./reset.css";
+@import "./financeflow.css";
+@import "./sections/header.scss";
+@import "./sections/footer.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -83,6 +86,7 @@ button {
     border-radius: 80px;
     font-weight: 700;
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 .blue-btn{
@@ -123,6 +127,10 @@ button {
         color: var(--primary-color-blue);
         border: 1px solid var(--primary-color-blue);
     }
+}
+
+.bg-dark{
+    background-color: var(--primary-color-darkBlue);
 }
 
 .container {
