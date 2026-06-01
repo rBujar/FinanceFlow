@@ -57,6 +57,25 @@
                 </div>
             </div>
         </section>
+        <section class="mission container">
+            <div class="row">
+               <div class="mission__cards col-12 col-lg-6">
+                <div class="mission__item">
+                    <h2>Our mission</h2>
+                    <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies. Sollicitudin odio elementum urna placerat lacus, vulputate. Non malesuada viverra et ultrices cras. Tincidunt tempor, blandit augue ac feugiat. Praesent arcu tempus ullamcorper quisque in. Magna fermentum, lacus, fermentum arcu.</p>
+                    <p class="text-md">Vulputate pellentesque proin facilisis dignissim gravida sed faucibus nunc. Nunc eget pharetra, in vitae porta lacus. Elit in nisl, in quis nulla tellus suscipit id. Semper velit odio cras pretium tristique habitant. Elit eu penatibus congue orci turpis. Enim diam id.</p>
+                </div>
+                <div class="mission__item">
+                    <h2>Our story</h2>
+                    <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies. Sollicitudin odio elementum urna placerat lacus, vulputate. Non malesuada viverra et ultrices cras. Tincidunt tempor, blandit augue ac feugiat. Praesent arcu tempus ullamcorper quisque in. Magna fermentum, lacus, fermentum arcu.</p>
+                    <p class="text-md">Vulputate pellentesque proin facilisis dignissim gravida sed faucibus nunc. Nunc eget pharetra, in vitae porta lacus. Elit in nisl, in quis nulla tellus suscipit id. Semper velit odio cras pretium tristique habitant. Elit eu penatibus congue orci turpis. Enim diam id.</p>
+                </div>
+               </div>
+               <div class="mission__image col-12 col-lg-6">
+                <img src="./src/assets/planet.png" alt="planet">
+               </div>
+            </div>
+        </section>
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
