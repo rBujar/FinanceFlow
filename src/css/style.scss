@@ -4,6 +4,8 @@
 @import "./grid_system.scss";
 @import "./financeflow.css";
 @import "./reset.css";
+@import "./aboutUs-sectionos/aboutHero.scss";
+@import "./aboutUs-sectionos/mission.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -73,7 +75,7 @@ h2 {
     font-weight: 400;
 }
 
-.text-caps{
+.text-caps {
     text-transform: uppercase;
 }
 
@@ -85,41 +87,41 @@ button {
     font-size: 16px;
 }
 
-.blue-btn{
+.blue-btn {
     background-color: var(--primary-color-blue);
     transition: background-color 0.2s ease-in-out;
 
-    &:hover{
+    &:hover {
         background-color: var(--secondary-color-hoverBlue);
     }
 }
 
-.grey-btn{
+.grey-btn {
     background-color: var(--secondary-color-grey);
     transition: background-color 0.2s ease-in-out;
 
-    &:hover{
+    &:hover {
         background-color: var(--primary-color-blue);
     }
 }
 
-.white-btn{
+.white-btn {
     background-color: var(--primary-color-white);
     color: var(--primary-color-blue);
     transition: background-color 0.2s ease-in-out;
 
-    &:hover{
+    &:hover {
         background-color: var(--secondary-color-hoverBlue);
         color: var(--primary-color-white);
     }
 }
 
-.play-btn{
+.play-btn {
     border-radius: 50%;
     color: var(--primary-color-white);
     transition: all 0.2s ease-in-out;
 
-    &:hover{
+    &:hover {
         color: var(--primary-color-blue);
         border: 1px solid var(--primary-color-blue);
     }
