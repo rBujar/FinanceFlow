@@ -76,6 +76,48 @@
                </div>
             </div>
         </section>
+        <section class="timeline container">
+            <div class="row">
+                <div class="timeline__title col-12 col-lg-5 col-xl-4">
+                    <h2>Timeline</h2>
+                    <p class="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+                </div>
+                <div class="timeline__content col-12 col-lg-6 offset-lg-1 col-xl-7">
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2014</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2016</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2018</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2022</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
