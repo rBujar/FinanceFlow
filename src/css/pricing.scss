@@ -1,0 +1,161 @@
+.pricing-bg {
+    background-color: var(--secondary-color-bg);
+}
+
+.pricing {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 40px;
+
+        h1 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__info {
+        @include position($align: start);
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+
+    &__trait {
+        @include position($direction: row);
+        gap: 18px;
+    }
+
+    &__cards {
+        @include position();
+        gap: 16px;
+    }
+
+    &__item {
+        @include position($align: start);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: var(--primary-color-darkBlue);
+        padding: 48px 30px 42px;
+        gap: 40px;
+        max-width: 395px;
+
+        button {
+            color: var(--primary-color-white);
+            width: 100%;
+            padding: 20px 35px;
+            margin-top: 14px;
+        }
+    }
+
+    &__planType {
+        background-color: var(--primary-color-blue);
+        max-width: 75px;
+        padding: 5px 15px;
+        border-radius: 100px;
+        text-align: center;
+
+        span {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    &__cardTitle {
+        h2 {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__featureList {
+        h5 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__features {
+        padding-left: 20px;
+
+        li {
+            list-style-type: disc;
+
+            &::marker {
+                color: var(--primary-color-blue);
+            }
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .pricing {
+        &__info {
+            @include position($direction: row, $justify: space-between);
+            gap: 0px;
+        }
+
+        &__trait {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            span {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .pricing {
+        &__title {
+            text-align: center;
+
+            p {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        &__info {
+            margin-bottom: 60px;
+        }
+
+        &__trait {
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
+            span {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .pricing {
+        &__cards {
+            @include position($direction: row);
+        }
+
+        &__trait {
+            img {
+                width: 68px;
+                height: 68px;
+            }
+        }
+    }
+}
+
+@media (min-width: $xl) {
+    .pricing {
+        &__cards {
+            @include position($direction: row, $justify: space-between);
+            gap: 0px;
+        }
+    }
+}
