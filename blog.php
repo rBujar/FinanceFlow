@@ -1,0 +1,43 @@
+<?php require_once 'vite-helper.php'; ?>
+<!doctype html>
+<html lang="en">
+  <head>
+   <?php include 'components/head.php' ?>
+  </head>
+  <body>
+    <?php include 'components/header.php' ?>
+    <div class="blog-bg">
+      <section class="blog container">
+        <div class="row">
+          <div class="blog__title col-12">
+            <h2>Blog</h2>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse tortor aenean dis placerat.</p>
+          </div>
+          <div class="blog__content col-12">
+              <div class="blog__item">
+                <div class="blog__image">
+                <img src="./src/assets/blog-1.png" class="blog__image" alt="blog-1">
+                </div>
+                <div class="blog__info">
+                  <div class="blog__articleType"><p class="text-caps">PRODUCTS</p></div>
+                  <div class="blog__infoTitle">
+                    <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
+                  </div>
+                  <div class="blog__author">
+                    <img src="./src/assets/author-1.png" alt="author-1">
+                    <div class="blog__authorInfo">
+                      <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                      <span class="text-sm">AUGUST 2, 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </div>
+    <?php include 'components/footer.php' ?>
+    <?php viteEntry('src/js/main.js'); ?>
+  </body>
+</html>

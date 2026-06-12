@@ -19,6 +19,7 @@
 @import "./aboutUs-sectionos/timeline.scss";
 @import "./aboutUs-sectionos/team.scss";
 @import "./pricing.scss";
+@import "./blog.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -68,6 +69,11 @@ h1 {
 h2 {
     font-size: 28px;
     line-height: 36px;
+}
+
+.text-lg{
+    font-size: 22px;
+    line-height: 31px;
 }
 
 .text-md {
