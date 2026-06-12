@@ -1,10 +1,11 @@
-.blog-bg{
+.blog-bg {
     background-color: var(--secondary-color-bg);
 }
 
-.blog{
+.blog {
     color: var(--primary-color-white);
-      &__title {
+
+    &__title {
         margin-bottom: 24px;
 
         h2 {
@@ -12,32 +13,32 @@
         }
     }
 
-    &__content{
+    &__content {
         @include position();
     }
 
-    &__item{
+    &__item {
         @include position();
-       border: none;
-       outline: none;
-       border-radius: 40px;
-       background-color: var(--primary-color-darkBlue);
-       max-width: 395px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: var(--primary-color-darkBlue);
+        max-width: 395px;
     }
 
-    &__info{
+    &__info {
         @include position($align: start);
         padding: 42px 24px 36px;
         color: var(--primary-color-white);
         position: relative;
     }
 
-    &__image{
+    &__image {
         width: 100%;
         border-radius: 40px 40px 0px 0px;
     }
 
-    &__articleType{
+    &__articleType {
         background-color: var(--primary-color-blue);
         max-width: 110px;
         padding: 8px 15px;
@@ -47,7 +48,7 @@
         top: 0;
         transform: translateY(-15px);
 
-        p{
+        p {
             color: var(--primary-color-white);
             font-size: 14px;
             line-height: 18px;
@@ -62,7 +63,6 @@
 
         h4 {
             margin-bottom: 16px;
-            
         }
     }
 
@@ -70,19 +70,69 @@
         @include position($direction: row);
         gap: 15px;
 
-        img{
+        img {
             border-radius: 50%;
         }
     }
 }
 
-@media (min-width: $md){
-    .blog{
-         &__title {
+.blogSub-bg {
+    background-color: var(--primary-color-blue);
+}
+
+.blogSub {
+    &__title {
+        @include position();
+        color: var(--primary-color-white);
+        margin-bottom: 20px;
+        text-align: center;
+
+        img {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__content {
+        @include position();
+        gap: 20px;
+
+        button {
+            color: var(--primary-color-white);
+            max-width: 360px;
+        }
+    }
+
+    &__inputContainer {
+        background-color: var(--primary-color-white);
+        border-radius: 100px;
+        width: 100%;
+        padding: 30px 16px;
+        max-width: 360px;
+
+        input {
+            border: none;
+            background-color: transparent;
+        }
+
+        button {
+            display: none;
+        }
+    }
+
+    &__darkBtn {
+        background-color: #031fb4;
+        width: 100%;
+        padding: 25px 30px;
+    }
+}
+
+@media (min-width: $md) {
+    .blog {
+        &__title {
             @include position($direction: row, $justify: space-between);
             margin-bottom: 50px;
 
-            h2{
+            h2 {
                 margin-bottom: 0px;
             }
 
@@ -91,58 +141,113 @@
             }
         }
 
-        &__item{
+        &__item {
             @include position($direction: row);
             max-width: initial;
         }
 
-        &__info{
+        &__info {
             position: static;
             padding: 58px 78px 58px 48px;
         }
 
-        &__infoTitle{
+        &__infoTitle {
             border-bottom: none;
             padding: 0px;
             margin-bottom: 0px;
 
-            h4{
+            h4 {
                 font-size: 28px;
                 line-height: 40px;
             }
 
-            p{
+            p {
                 font-size: 18px;
                 line-height: 32px;
             }
         }
 
-        &__image{
+        &__image {
             order: 2;
             width: 100%;
             border-radius: 0px 40px 40px 0px;
             height: 100%;
         }
 
-        &__articleType{
+        &__articleType {
             position: static;
             transform: none;
             margin-bottom: 20px;
         }
 
-        &__author{
+        &__author {
+            display: none;
+        }
+    }
+
+    .blogSub {
+        &__title {
+            @include position($direction: row);
+            gap: 25px;
+            margin-bottom: 0px;
+            text-align: left;
+
+            h2 {
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+            img {
+                margin-bottom: 0px;
+                width: 58px;
+            }
+        }
+
+        &__darkBtn {
             display: none;
         }
 
+        &__content {
+            @include position($direction: row, $justify: end);
+        }
+
+        &__inputContainer {
+            @include position($direction: row, $justify: space-between);
+            max-width: 380px;
+            padding: 8px 8px 8px 16px;
+
+            button {
+                display: block;
+                max-width: 140px;
+                padding: 20px 30px;
+            }
+        }
     }
 }
 
-@media (min-width: $lg){
-    .blog{
-            &__title {
+@media (min-width: $lg) {
+    .blog {
+        &__title {
             p {
                 max-width: 420px;
             }
+        }
+    }
+
+    .blogSub {
+        &__title {
+            img {
+                width: 68px;
+            }
+
+            h2 {
+                font-size: 42px;
+                line-height: 55px;
+            }
+        }
+
+        &__inputContainer {
+            max-width: unset;
         }
     }
 }
