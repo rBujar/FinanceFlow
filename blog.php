@@ -37,6 +37,23 @@
         </div>
       </section>
     </div>
+    <div class="blogSub-bg">
+    <section class="blogSub container">
+      <div class="row">
+        <div class="blogSub__title col-12 col-lg-6 col-xl-7">
+          <img src="./src/assets/subscribe.png" alt="subscribe-image">
+          <h2>Subscribe to our crypto news weekly newsletter!</h2>
+        </div>
+        <div class="blogSub__content col-12 col-lg-6 col-xl-5">
+          <div class="blogSub__inputContainer">
+            <input type="email" name="email" placeholder="Enter email address">
+            <button class="blue-btn text-bold text-caps">Subscribe</button>
+          </div>
+          <button class="blogSub__darkBtn text-caps text-bold">Subscribe</button>
+        </div>
+      </div>
+    </section>
+    </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
   </body>
