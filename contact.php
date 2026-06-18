@@ -73,7 +73,7 @@
     <section class="faq container">
       <div class="row">
         <h1 class="col-12" style="text-align: center;">FAQ</h1>
-        <div class="faq__content col-12">
+        <div class="faq__content col-12 col-lg-8 offset-lg-2">
           <div class="faq__card">
             <div class="faq__question">
               <h4 class="text-md text-bold">Question 1</h4>
