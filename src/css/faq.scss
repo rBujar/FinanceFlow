@@ -1,0 +1,59 @@
+.faq {
+    color: var(--primary-color-white);
+
+    &__card {
+        @include position($align: start);
+    }
+
+    &__question {
+        @include position($direction: row, $justify: space-between);
+        width: 100%;
+        border-bottom: 1px solid var(--secondary-color-grey);
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+
+    &__answer {
+        visibility: hidden;
+        opacity: 0;
+        height: 0px;
+        transition: all 0.2s ease-in-out;
+
+        &.active {
+            visibility: visible;
+            opacity: 1;
+            border-bottom: 1px solid var(--secondary-color-grey);
+            padding-bottom: 24px;
+            padding-top: 24px;
+            height: fit-content;
+        }
+    }
+
+    &__sign {
+        @include position();
+        cursor: pointer;
+        width: 27px;
+        height: 27px;
+
+        &--bar {
+            display: block;
+            background-color: var(--primary-color-white);
+            width: 27px;
+            height: 2px;
+            border-radius: 100px;
+            transition: all 0.2s ease-in-out;
+            visibility: visible;
+
+            &--vertical {
+                transform: translateY(2px) rotate(90deg);
+            }
+        }
+
+        &.active {
+            .faq__sign--bar--vertical {
+                transform: translateY(0px) rotate(0deg);
+                visibility: hidden;
+            }
+        }
+    }
+}
