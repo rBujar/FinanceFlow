@@ -26,6 +26,7 @@
 @import "./contact.scss";
 @import "./faq.scss";
 @import "./error.scss";
+@import "./token.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -90,6 +91,11 @@ h2 {
 .text-sm {
     font-size: 16px;
     line-height: 26px;
+}
+
+.text-xs{
+    font-size: 14px;
+    line-height: 22px;
 }
 
 .text-bold {

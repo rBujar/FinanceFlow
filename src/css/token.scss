@@ -1,0 +1,52 @@
+.token-bg{
+    background-color: var(--secondary-color-bg);
+}
+
+.token{
+    color: var(--primary-color-white);
+
+    &__title{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    &__item{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid var(--secondary-color-grey);
+    }
+    
+    &__coin{
+        @include position($direction: row, $justify: left);
+        gap: 16px;
+
+        img{
+            width: 40px;
+        }
+        
+    }
+
+        &__description{
+        padding-right: 20px;
+    }
+
+    &__cap, &__volume{
+        min-width: 155px;
+    }
+}
+
+@media (min-width: $lg){
+    .token{
+         &__cap, &__volume{
+        min-width: 185px;
+    }
+    }
+}
+
+@media (min-width: $xl){
+    .token{
+         &__cap, &__volume{
+        min-width: 215px;
+    }
+    }
+}
