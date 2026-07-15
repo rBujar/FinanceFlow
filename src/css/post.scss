@@ -1,4 +1,4 @@
-.post{
+.post {
     color: var(--primary-color-white);
 
     &__title {
@@ -10,17 +10,23 @@
         }
     }
 
-    &__selectButtons{
+    &__selectButtons {
         @include position();
         gap: 16px;
 
-        button{
+        button {
             color: var(--primary-color-white);
             width: 100%;
             max-width: 355px;
-            padding: 12px 25px
+            padding: 12px 25px;
+            transition: background-color 0.2s ease-in-out;
+
+            &.selected {
+                background-color: var(--primary-color-blue);
+            }
         }
     }
+
 
     &__content {
         @include position();
@@ -84,35 +90,71 @@
             border-radius: 50%;
         }
     }
+
+    &__pagination {
+        @include position($direction: row);
+        gap: 16px;
+        margin-top: 25px;
+
+        button {
+            @include position();
+            background-color: var(--secondary-color-grey);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            transition: background-color 0.2s ease-in-out;
+
+            i {
+                color: rgba(255, 255, 255, 0.3);
+                font-weight: 300;
+            }
+
+            &:hover {
+                background-color: var(--primary-color-darkBlue);
+
+                i {
+                    color: var(--primary-color-white);
+                }
+            }
+        }
+
+        p{
+            padding: 4px 8px;
+            &:hover, &.selected{
+                color: var(--primary-color-blue);
+            }
+        }
+    }
 }
 
-@media (min-width: $md){
-    .post{
-        &__title{
+@media (min-width: $md) {
+    .post {
+        &__title {
             @include position($direction: row, $justify: space-between);
-            h2{
+
+            h2 {
                 margin-bottom: 0px;
             }
         }
 
-        &__selectButtons{
+        &__selectButtons {
             @include position($direction: row);
 
-            button{
+            button {
                 max-width: 115px;
             }
         }
 
-        &__content{
+        &__content {
             @include position($direction: row);
             flex-wrap: wrap;
         }
     }
 }
 
-@media (min-width: $lg){
-    .post{
-        &__content{
+@media (min-width: $lg) {
+    .post {
+        &__content {
             gap: 24px;
         }
     }
