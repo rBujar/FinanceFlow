@@ -7,6 +7,7 @@
 @import "./financeflow.css";
 @import "./sections/header.scss";
 @import "./sections/footer.scss";
+@import "./build.scss";
 
 :root {
     --primary-color-blue: #0328ee;
@@ -86,6 +87,10 @@ button {
     border-radius: 80px;
     font-weight: 700;
     font-size: 16px;
+    text-transform: uppercase;
+}
+
+.text-caps{
     text-transform: uppercase;
 }
 
