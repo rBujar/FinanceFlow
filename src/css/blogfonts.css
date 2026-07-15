@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'financeflow';
-  src: url('../assets/font/financeflow.eot');
-  src: url('../assets/font/financeflow.eot') format('embedded-opentype'),
-       url('../assets/font/financeflow.woff2') format('woff2'),
-       url('../assets/font/financeflow.woff') format('woff'),
-       url('../assets/font/financeflow.ttf') format('truetype'),
-       url('../assets/font/financeflow.svg') format('svg');
+  font-family: 'blogfonts';
+  src: url('../assets/blogFont/blogfonts.eot');
+  src: url('../assets/blogFont/blogfonts.eot') format('embedded-opentype'),
+       url('../assets/blogFont/blogfonts.woff2') format('woff2'),
+       url('../assets/blogFont/blogfonts.woff') format('woff'),
+       url('../assets/blogFont/blogfonts.ttf') format('truetype'),
+       url('../assets/blogFont/blogfonts.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,13 +14,13 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'financeflow';
-    src: url('../font/financeflow.svg?33552974#financeflow') format('svg');
+    font-family: 'blogfonts';
+    src: url('../font/blogfonts.svg?15094879#blogfonts') format('svg');
   }
 }
 */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "financeflow";
+  font-family: "blogfonts";
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -54,11 +54,5 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-play:before { content: '\e800'; } /* '' */
-.icon-playstore:before { content: '\e801'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-apple:before { content: '\f179'; } /* '' */
-.icon-facebook-squared:before { content: '\f308'; } /* '' */
 .icon-leftArrow:before { content: '\e800'; } /* '' */
 .icon-rightArrow:before { content: '\e801'; } /* '' */
