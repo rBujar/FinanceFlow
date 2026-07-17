@@ -1,0 +1,87 @@
+.token-bg {
+    overflow: hidden;
+    background: radial-gradient(600px circle at 100% 60%,
+            var(--primary-color-blue) 0%,
+            var(--secondary-color-bg) 60%);
+}
+
+.token {
+    color: var(--primary-color-white);
+
+    &__image {
+        @include position();
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        &--top {
+            margin-bottom: 40px;
+        }
+
+        &--bottom {
+            margin-top: 40px;
+        }
+    }
+
+    &__card:first-child {
+        margin-bottom: 80px;
+    }
+
+    &__content {
+        @include position($align: start);
+        gap: 15px;
+    }
+
+    &__features {
+        @include position($align: start);
+        gap: 18px;
+    }
+
+    &__item {
+        @include position($direction: row);
+        gap: 18px;
+    }
+}
+
+@media (min-width: $md) {
+    .token-bg {
+        overflow: hidden;
+        background: radial-gradient(600px circle at 50% 50%,
+                var(--primary-color-blue) 0%,
+                var(--secondary-color-bg) 65%);
+    }
+
+    .token {
+        &__content {
+            p {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        &__image {
+            &--bottom {
+                align-items: end;
+                width: 120%;
+
+                img {
+                    transform: translateX(20%);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .token {
+        &__image {
+            &--bottom {
+                img {
+                    transform: translateX(25%);
+                }
+            }
+        }
+    }
+}
