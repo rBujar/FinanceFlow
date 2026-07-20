@@ -1,0 +1,161 @@
+.post {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 24px;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__selectButtons {
+        @include position();
+        gap: 16px;
+
+        button {
+            color: var(--primary-color-white);
+            width: 100%;
+            max-width: 355px;
+            padding: 12px 25px;
+            transition: background-color 0.2s ease-in-out;
+
+            &.selected {
+                background-color: var(--primary-color-blue);
+            }
+        }
+    }
+
+
+    &__content {
+        @include position();
+        gap: 16px;
+    }
+
+    &__item {
+        @include position();
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: var(--primary-color-darkBlue);
+        max-width: 395px;
+    }
+
+    &__info {
+        @include position($align: start);
+        padding: 42px 24px 36px;
+        color: var(--primary-color-white);
+        position: relative;
+    }
+
+    &__image {
+        width: 100%;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    &__articleType {
+        background-color: var(--primary-color-blue);
+        max-width: 110px;
+        padding: 8px 15px;
+        text-align: center;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        transform: translateY(-15px);
+
+        p {
+            color: var(--primary-color-white);
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    &__infoTitle {
+        padding-bottom: 32px;
+        border-bottom: 1px solid var(--secondary-color-grey);
+        padding-right: 10px;
+        margin-bottom: 38px;
+
+        h4 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__author {
+        @include position($direction: row);
+        gap: 15px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    &__pagination {
+        @include position($direction: row);
+        gap: 16px;
+        margin-top: 25px;
+
+        button {
+            @include position();
+            background-color: var(--secondary-color-grey);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            transition: background-color 0.2s ease-in-out;
+
+            i {
+                color: rgba(255, 255, 255, 0.3);
+                font-weight: 300;
+            }
+
+            &:hover {
+                background-color: var(--primary-color-darkBlue);
+
+                i {
+                    color: var(--primary-color-white);
+                }
+            }
+        }
+
+        p{
+            padding: 4px 8px;
+            &:hover, &.selected{
+                color: var(--primary-color-blue);
+            }
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .post {
+        &__title {
+            @include position($direction: row, $justify: space-between);
+
+            h2 {
+                margin-bottom: 0px;
+            }
+        }
+
+        &__selectButtons {
+            @include position($direction: row);
+
+            button {
+                max-width: 115px;
+            }
+        }
+
+        &__content {
+            @include position($direction: row);
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .post {
+        &__content {
+            gap: 24px;
+        }
+    }
+}
