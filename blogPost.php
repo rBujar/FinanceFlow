@@ -72,79 +72,75 @@
         </section>
     </div>
     <div class="blog-bg">
-        <section class="post container">
-            <div class="row">
-                <div class="post__title col-12">
-                    <h2>Latest Post</h2>
-                    <button class="grey-btn selected">View All</button>
-                </div>
-                <div class="post__content col-12">
-                    <div class="post__item">
-                        <div class="post__image">
-                            <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
-                        </div>
-                        <div class="post__info">
-                            <div class="post__articleType">
-                                <p class="text-caps">PRODUCTS</p>
-                            </div>
-                            <div class="post__infoTitle">
-                                <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
-                                <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
-                            </div>
-                            <div class="post__author">
-                                <img src="./src/assets/author.png" alt="author">
-                                <div class="post__authorInfo">
-                                    <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
-                                    <span class="text-sm">AUGUST 2, 2021</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post__item">
-                        <div class="post__image">
-                            <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
-                        </div>
-                        <div class="post__info">
-                            <div class="post__articleType">
-                                <p class="text-caps">PRODUCTS</p>
-                            </div>
-                            <div class="post__infoTitle">
-                                <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
-                                <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
-                            </div>
-                            <div class="post__author">
-                                <img src="./src/assets/author.png" alt="author">
-                                <div class="post__authorInfo">
-                                    <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
-                                    <span class="text-sm">AUGUST 2, 2021</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post__item">
-                        <div class="post__image">
-                            <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
-                        </div>
-                        <div class="post__info">
-                            <div class="post__articleType">
-                                <p class="text-caps">PRODUCTS</p>
-                            </div>
-                            <div class="post__infoTitle">
-                                <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
-                                <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
-                            </div>
-                            <div class="post__author">
-                                <img src="./src/assets/author.png" alt="author">
-                                <div class="post__authorInfo">
-                                    <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
-                                    <span class="text-sm">AUGUST 2, 2021</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section class="post container">
+       <div class="row">
+          <div class="post__title col-12">
+            <h2>Latest Post</h2>
+            <div class="post__selectButtons">
+              <button class="post__postType grey-btn" data-filter="all">VIEW All</button>
             </div>
-        </section>
+          </div>
+          <div class="post__content col-12">
+              <div class="post__item" data-category="products">
+                <div class="post__image">
+                <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
+                </div>
+                <div class="post__info">
+                  <div class="post__articleType"><p class="text-caps">PRODUCTS</p></div>
+                  <div class="post__infoTitle">
+                    <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
+                  </div>
+                  <div class="post__author">
+                    <img src="./src/assets/author-1.png" alt="author-1">
+                    <div class="post__authorInfo">
+                      <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                      <span class="text-sm">AUGUST 2, 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post__item" data-category="products">
+                <div class="post__image">
+                <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
+                </div>
+                <div class="post__info">
+                  <div class="post__articleType"><p class="text-caps">PRODUCTS</p></div>
+                  <div class="post__infoTitle">
+                    <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
+                  </div>
+                  <div class="post__author">
+                    <img src="./src/assets/author-1.png" alt="author-1">
+                    <div class="post__authorInfo">
+                      <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                      <span class="text-sm">AUGUST 2, 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post__item" data-category="products">
+                <div class="post__image">
+                <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
+                </div>
+                <div class="post__info">
+                  <div class="post__articleType"><p class="text-caps">PRODUCTS</p></div>
+                  <div class="post__infoTitle">
+                    <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
+                  </div>
+                  <div class="post__author">
+                    <img src="./src/assets/author-1.png" alt="author-1">
+                    <div class="post__authorInfo">
+                      <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                      <span class="text-sm">AUGUST 2, 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
