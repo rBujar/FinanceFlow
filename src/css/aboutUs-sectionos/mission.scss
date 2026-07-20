@@ -1,0 +1,46 @@
+.mission {
+    &__cards {
+        @include position();
+        color: var(--primary-color-white);
+        gap: 80px;
+        margin-bottom: 64px;
+    }
+
+    &__item {
+        h2 {
+            margin-bottom: 16px;
+        }
+
+        p:first-of-type {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .mission .container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mission {
+        &__image {
+            @include position($justify: right, $direction: row);
+            position: absolute;
+            right: 0;
+            transform: translateX(20px);
+        }
+
+        &__cards{
+            gap: 80px;
+            margin-bottom: 0px;
+        }
+
+        &__item{
+            p{
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+    }
+}
