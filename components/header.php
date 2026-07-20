@@ -6,7 +6,7 @@
     <div class="header__nav">
         <ul class="header__menu">
             <li class="header__item"><a href="#">Home</a></li>
-            <li class="header__item"><a href="#">About</a></li>
+            <li class="header__item"><a href="../about-us.php">About</a></li>
             <li class="header__item"><a href="#">Pricing</a></li>
             <li class="header__item"><a href="#">Tokens</a></li>
             <li class="header__item"><a href="#">Blog</a></li>

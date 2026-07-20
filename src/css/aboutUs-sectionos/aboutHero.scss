@@ -1,0 +1,133 @@
+.aboutHero-bg {
+    overflow: hidden;
+    background: radial-gradient(500px circle at 20% 20%,
+            var(--primary-color-blue) 0%,
+            var(--secondary-color-bg) 50%);
+}
+
+.aboutHero {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 40px;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__content {
+        @include position();
+        gap: 16px;
+    }
+
+    &__info {
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__cards {
+        @include position();
+        gap: 16px;
+    }
+
+    &__item {
+        @include position($align: start);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: var(--primary-color-darkBlue);
+        padding: 58px 32px;
+        gap: 24px;
+        max-width: 395px;
+    }
+
+    &__details {
+        h5 {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .aboutHero {
+
+        &__title,
+        &__info {
+            text-align: center;
+        }
+
+        &__item {
+            max-width: 450px;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .aboutHero-bg {
+        overflow: hidden;
+        background: radial-gradient(600px circle at 25% 35%,
+                var(--primary-color-blue) 0%,
+                var(--secondary-color-bg) 60%);
+    }
+
+    .aboutHero {
+        &__title {
+            margin-bottom: 110px;
+
+            h1 {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__info {
+            @include position($direction: row, $justify: space-between);
+            margin-bottom: 30px;
+            width: 100%;
+
+            p {
+                max-width: 390px;
+            }
+        }
+
+        &__cards {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 28px;
+        }
+
+        &__item {
+            @include position($direction: row, $align: start);
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .aboutHero {
+        &__info {
+            p {
+                max-width: 400px;
+            }
+        }
+
+        &__item {
+            max-width: 540px;
+        }
+    }
+}
+
+@media (min-width: $xl) {
+    .aboutHero {
+        &__info {
+            p {
+                max-width: 400px;
+            }
+        }
+
+        &__item {
+            max-width: 585px;
+            // max-height: ;
+        }
+    }
+}
