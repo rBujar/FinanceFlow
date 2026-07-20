@@ -9,7 +9,7 @@
             <li class="header__item"><a href="../about-us.php">About</a></li>
             <li class="header__item"><a href="../pricing.php">Pricing</a></li>
             <li class="header__item"><a href="#">Tokens</a></li>
-            <li class="header__item"><a href="#">Blog</a></li>
+            <li class="header__item"><a href="../blog.php">Blog</a></li>
             <li class="header__item"><a href="#">Contact Us</a></li>
         </ul>
         <button class="blue-btn text-sm text-bold">Download App</button>
