@@ -1,0 +1,141 @@
+.contact-bg {
+    overflow: hidden;
+    background: radial-gradient(500px circle at 100% 15%,
+            var(--primary-color-blue) 0%,
+            var(--secondary-color-bg) 55%);
+}
+
+.contact{
+    color: var(--primary-color-white);
+
+    &__content{
+        h1{
+            margin-bottom: 40px;
+        }
+    }
+
+    &__formWrapper{
+        border: none;
+        outline: none;
+        margin-bottom: 50px;
+    }
+
+    &__form{
+        @include position($align: start);
+        gap: 24px;
+
+        label{
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        input, textarea{
+            color: var(--primary-color-white);
+            background-color: var(--primary-color-darkBlue);
+            border: 1px solid var(--secondary-color-bg);
+            padding: 20px 0px 20px 25px;
+            width: 100%;
+
+              &::placeholder{
+                color: var(--primary-color-white);
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        input{
+            border-radius: 100px;
+        }
+
+        textarea{
+            border-radius: 14px;
+            height: 160px;
+        }
+
+        button{
+            width: 100%;
+            max-width: 360px;
+            padding: 22px 30px;
+            align-self: center;
+            color: var(--primary-color-white);
+        }
+    }
+
+    &__group{
+        @include position($align: start);
+        gap: 24px;
+        width: 100%;
+    }
+
+    &__item{
+        width: 100%;
+    }
+
+    &__title{
+        margin-bottom: 24px;
+
+        h2{
+            margin-bottom: 20px;
+        }
+    }
+
+    &__emailGroup{
+        @include position($align: start);
+        gap: 24px;
+    }
+
+    &__email{
+        @include position($direction: row);
+        gap: 15px;
+    }
+}
+
+@media (min-width: $sm){
+    .contact{
+        &__content{
+            @include position();
+        }
+        &__formWrapper{
+            width: 100%;
+        }
+
+        &__group{
+            @include position($direction: row, $justify: space-between);
+        }
+    }
+}
+
+@media (min-width: $md){
+    .contact{
+        &__content{
+           align-items: start;
+        }
+
+        &__formWrapper{
+            button{
+                max-width: 200px;
+                align-self: start;
+            }
+        }
+
+        &__info{
+            @include position($align: start);
+        }
+
+        &__title{
+            margin-bottom: 32px;
+            h2{
+                font-size: 22px;
+                margin-bottom: 12px;
+            }
+
+            h2, p{
+                line-height: 32px;
+            }
+
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
