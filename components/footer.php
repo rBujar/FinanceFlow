@@ -14,7 +14,7 @@
                   <div class="footer__listGroup">
                 <ul class="footer__list">
                     <li class="footer__listItem"><a href="#">Home</a></li>
-                    <li class="footer__listItem"><a href="#">About</a></li>
+                    <li class="footer__listItem"><a href="../about-us.php">About</a></li>
                     <li class="footer__listItem"><a href="#">Pricing</a></li>
                 </ul>
                 <ul class="footer__list">
