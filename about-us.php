@@ -118,6 +118,56 @@
                 </div>
             </div>
             </section>
+        <section class="team container">
+            <div class="row">
+                <div class="team__teamContainer col-12">
+                    <div class="row">
+                    <div class="team__title col-12">
+                         <h2>Our Team</h2>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies.</p>
+                    </div>
+                    <div class="team__cards col-12">
+                        <div class="team__item">
+                            <img src="./src/assets/team-1.png" alt="team-1">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">John Carter</h4>
+                                <p class="text-sm text-caps">CEO & CO-Founder</p>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <img src="./src/assets/team-2.png" alt="team-2">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">Sophie Moore</h4>
+                                <p class="text-sm text-caps">Community Lead</p>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <img src="./src/assets/team-3.png" alt="team-3">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">Alex Turner</h4>
+                                <p class="text-sm text-caps">Operations</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="team__investors col-12">
+                    <div class="row">
+                        <div class="team__investorsTitle col-12 col-lg-8 offset-lg-2">
+                            <h2>Investors</h2>
+                            <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies.</p>
+                        </div>
+                        <div class="team__companies">
+                            <img src="./src/assets/company-1.png" alt="company-1">
+                            <img src="./src/assets/company-2.png" alt="company-2">
+                            <img src="./src/assets/company-3.png" alt="company-3">
+                            <img src="./src/assets/company-4.png" alt="company-4">
+                            <img src="./src/assets/company-5.png" alt="company-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
