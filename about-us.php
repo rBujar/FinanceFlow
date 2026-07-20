@@ -7,7 +7,7 @@
 <body>
     <?php include 'components/header.php' ?>
     <div class="aboutHero-bg">
-        <section class="aboutHero container">
+          <section class="aboutHero container">
             <div class="row">
                 <div class="aboutHero__title col-12 col-lg-8 offset-lg-2">
                     <h1>About Finance Flow</h1>
@@ -74,6 +74,98 @@
                <div class="mission__image col-12 col-lg-6">
                 <img src="./src/assets/planet.png" alt="planet">
                </div>
+            </div>
+        </section>
+        <section class="timeline container">
+            <div class="row">
+                <div class="timeline__title col-12 col-lg-5 col-xl-4">
+                    <h2>Timeline</h2>
+                    <p class="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+                </div>
+                <div class="timeline__content col-12 col-lg-6 offset-lg-1 col-xl-7">
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2014</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2016</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2018</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__circle"></div>
+                        <div class="timeline__info">
+                            <h2>2022</h2>
+                            <h4 class="text-md text-bold text-caps">Announcement</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <section class="team container">
+            <div class="row">
+                <div class="team__teamContainer col-12">
+                    <div class="row">
+                    <div class="team__title col-12">
+                         <h2>Our Team</h2>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies.</p>
+                    </div>
+                    <div class="team__cards col-12">
+                        <div class="team__item">
+                            <img src="./src/assets/team-1.png" alt="team-1">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">John Carter</h4>
+                                <p class="text-sm text-caps">CEO & CO-Founder</p>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <img src="./src/assets/team-2.png" alt="team-2">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">Sophie Moore</h4>
+                                <p class="text-sm text-caps">Community Lead</p>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <img src="./src/assets/team-3.png" alt="team-3">
+                            <div class="team__info">
+                                <h4 class="text-sm text-bold text-caps">Alex Turner</h4>
+                                <p class="text-sm text-caps">Operations</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="team__investors col-12">
+                    <div class="row">
+                        <div class="team__investorsTitle col-12 col-lg-8 offset-lg-2">
+                            <h2>Investors</h2>
+                            <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient lorem purus justo, ultricies.</p>
+                        </div>
+                        <div class="team__companies">
+                            <img src="./src/assets/company-1.png" alt="company-1">
+                            <img src="./src/assets/company-2.png" alt="company-2">
+                            <img src="./src/assets/company-3.png" alt="company-3">
+                            <img src="./src/assets/company-4.png" alt="company-4">
+                            <img src="./src/assets/company-5.png" alt="company-5">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>

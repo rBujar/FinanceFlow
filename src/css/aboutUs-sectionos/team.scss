@@ -1,0 +1,126 @@
+.team {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 24px;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__cards {
+        @include position();
+        gap: 16px;
+        margin-bottom: 80px;
+    }
+
+    &__item {
+        @include position();
+        background-color: var(--primary-color-darkBlue);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        gap: 32px;
+        padding: 24px 16px;
+
+        img {
+            border-radius: 32px;
+        }
+    }
+
+    &__info {
+        h4 {
+            margin-bottom: 12px;
+        }
+    }
+
+    &__investorsTitle {
+        text-align: center;
+        margin-bottom: 50px;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__companies {
+        @include position($direction: row, $justify: space-around);
+        flex-wrap: wrap;
+        gap: 15px;
+
+        img {
+            width: 134px;
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .team {
+        &__companies {
+            @include position($direction: row, $justify: space-between);
+            width: 100%;
+            gap: initial;
+
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .team {
+        &__title {
+            @include position($direction: row, $justify: space-between);
+            margin-bottom: 50px;
+            width: 100%;
+
+            p {
+                max-width: 435px;
+            }
+        }
+
+        &__cards {
+            @include position($direction: row, $justify: space-between);
+            width: 100%;
+            margin-bottom: 130px;
+        }
+
+        &__title,
+        &__investorsTitle {
+            p {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        &__investorsTitle {
+            margin-bottom: 40px;
+        }
+
+        &__companies {
+            img {
+                width: 170px;
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .team {
+        &__companies {
+            img {
+                width: initial;
+            }
+        }
+    }
+}
+
+@media (min-width: $xl){
+    .team{
+         &__item{
+            width: 375px;
+        }
+    }
+}

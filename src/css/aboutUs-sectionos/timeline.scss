@@ -1,0 +1,73 @@
+.timeline {
+    color: var(--primary-color-white);
+
+    &__title {
+        margin-bottom: 40px;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__content {
+        @include position();
+        gap: 55px;
+    }
+
+    &__circle {
+        min-width: 24px;
+        min-height: 24px;
+        background-color: var(--primary-color-white);
+        border-radius: 50%;
+    }
+
+    &__item {
+        @include position($direction: row, $align: start, $justify: space-between);
+        padding-bottom: 40px;
+        border-bottom: 1px solid var(--primary-color-white);
+        gap: 54px;
+    }
+
+    &__info {
+        text-align: left;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .timeline {
+        &__circle {
+            margin-top: 8px;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .timeline {
+
+        &__title,
+        &__info {
+            p {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+
+@media (min-width: $xl) {
+    .timeline {
+        &__title {
+            p {
+                padding-right: 20px;
+            }
+        }
+    }
+}
