@@ -15,7 +15,7 @@
                 <ul class="footer__list">
                     <li class="footer__listItem"><a href="#">Home</a></li>
                     <li class="footer__listItem"><a href="../about-us.php">About</a></li>
-                    <li class="footer__listItem"><a href="#">Pricing</a></li>
+                    <li class="footer__listItem"><a href="../pricing.php">Pricing</a></li>
                 </ul>
                 <ul class="footer__list">
                     <li class="footer__listItem"><a href="#">Tokes</a></li>
