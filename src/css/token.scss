@@ -1,52 +1,104 @@
-.token-bg{
+.token-bg {
     background-color: var(--secondary-color-bg);
 }
 
-.token{
+.token {
     color: var(--primary-color-white);
 
-    &__title{
+    &__title {
         text-align: center;
         margin-bottom: 100px;
     }
 
-    &__item{
-        padding-top: 40px;
-        padding-bottom: 40px;
-        border-bottom: 1px solid var(--secondary-color-grey);
+    &__tableContainer {
+        overflow-x: auto;
     }
-    
-    &__coin{
-        @include position($direction: row, $justify: left);
+
+    &__table {
+        width: 100%;
+
+        tr td {
+            vertical-align: middle;
+        }
+    }
+
+    &__tableHead {
+        tr {
+            th {
+                border-bottom: 1px solid var(--secondary-color-grey);
+                padding-bottom: 40px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__tableBody {
+        tr td {
+            padding: 40px 30px 40px 0px;
+            border-bottom: 1px solid var(--secondary-color-grey);
+            // vertical-align: top;
+        }
+    }
+
+    &__coin {
+        @include position($direction: row, $justify: start);
         gap: 16px;
 
-        img{
-            width: 40px;
+        span {
+            font-size: 12px;
+            background-color: var(--primary-color-darkBlue);
+            border-radius: 100px;
+            padding: 6px 8px;
         }
-        
     }
 
-        &__description{
-        padding-right: 20px;
+    &__desc,
+    &__coinCell {
+        min-width: 220px;
     }
 
-    &__cap, &__volume{
-        min-width: 155px;
+    &__cap,
+    &__volume {
+        min-width: 200px;
+    }
+
+    &__website {
+        min-width: 150px;
     }
 }
 
-@media (min-width: $lg){
-    .token{
-         &__cap, &__volume{
-        min-width: 185px;
-    }
+@media (min-width: $lg) {
+    .token {
+        &__tableBody {
+            tr td p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+        &__desc,
+        &__coinCell {
+            min-width: 250px;
+        }
+
+        &__cap,
+        &__volume {
+            min-width: 220px;
+        }
     }
 }
 
-@media (min-width: $xl){
-    .token{
-         &__cap, &__volume{
-        min-width: 215px;
-    }
+@media (min-width: $xl) {
+    .token {
+
+        &__desc,
+        &__coinCell {
+            min-width: 300px;
+        }
+
+        &__cap,
+        &__volume {
+            min-width: 250px;
+        }
     }
 }
