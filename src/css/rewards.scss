@@ -1,11 +1,11 @@
-.token-bg {
+.rewards-bg {
     overflow: hidden;
     background: radial-gradient(600px circle at 100% 60%,
             var(--primary-color-blue) 0%,
             var(--secondary-color-bg) 60%);
 }
 
-.token {
+.rewards {
     color: var(--primary-color-white);
 
     &__image {
@@ -46,14 +46,14 @@
 }
 
 @media (min-width: $md) {
-    .token-bg {
+    .rewards-bg {
         overflow: hidden;
         background: radial-gradient(600px circle at 50% 50%,
                 var(--primary-color-blue) 0%,
                 var(--secondary-color-bg) 65%);
     }
 
-    .token {
+    .rewards {
         &__content {
             p {
                 font-size: 18px;
@@ -75,7 +75,7 @@
 }
 
 @media (min-width: $lg) {
-    .token {
+    .rewards {
         &__image {
             &--bottom {
                 img {
