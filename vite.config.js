@@ -10,6 +10,10 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'src/js/main.js'),
         style: resolve(__dirname, 'src/css/style.scss'),
+        blog: resolve(__dirname, 'src/js/blog.js'),
+        contact: resolve(__dirname, 'src/js/contact.js'),
+        header: resolve(__dirname, 'src/js/header.js'),
+        review: resolve(__dirname, 'src/js/review.js'),
       },
     },
   },
