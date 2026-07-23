@@ -18,7 +18,7 @@
                     <li class="footer__listItem"><a href="../pricing.php">Pricing</a></li>
                 </ul>
                 <ul class="footer__list">
-                    <li class="footer__listItem"><a href="#">Tokes</a></li>
+                    <li class="footer__listItem"><a href="../token.php">Tokes</a></li>
                     <li class="footer__listItem"><a href="../blog.php">Blog</a></li>
                     <li class="footer__listItem"><a href="../contact.scss">Contact Us</a></li>
                 </ul>
