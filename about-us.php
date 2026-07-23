@@ -11,8 +11,7 @@
             <div class="row">
                 <div class="aboutHero__title col-12 col-lg-8 offset-lg-2">
                     <h1>About Finance Flow</h1>
-                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
-                        suspendisse tortor aenean dis placerat.</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse tortor aenean dis placerat. Scelerisque imperdiet vitae dolor non aliquam. Malesuada.</p>
                 </div>
                 <div class="aboutHero__content col-12">
                     <div class="aboutHero__info">

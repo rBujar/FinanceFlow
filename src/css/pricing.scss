@@ -6,9 +6,10 @@
     color: var(--primary-color-white);
 
     &__title {
+        text-align: left;
         margin-bottom: 40px;
 
-        h1 {
+        h1{
             margin-bottom: 16px;
         }
     }
@@ -111,6 +112,7 @@
     .pricing {
         &__title {
             text-align: center;
+            margin-bottom: 100px;
 
             p {
                 font-size: 18px;

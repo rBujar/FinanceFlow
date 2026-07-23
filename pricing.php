@@ -9,7 +9,7 @@
     <div class="pricing-bg">
         <section class="pricing container">
             <div class="row">
-                <div class="pricing__title col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+                <div class="pricing__title col-12 col-lg-6 offset-lg-3">
                     <h1>Pricing</h1>
                     <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
                         suspendisse tortor aenean dis placerat. Scelerisque</p>

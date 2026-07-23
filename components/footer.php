@@ -13,14 +13,14 @@
                   <p>Menu</p>
                   <div class="footer__listGroup">
                 <ul class="footer__list">
-                    <li class="footer__listItem"><a href="#">Home</a></li>
+                    <li class="footer__listItem"><a href="../index.php">Home</a></li>
                     <li class="footer__listItem"><a href="../about-us.php">About</a></li>
                     <li class="footer__listItem"><a href="../pricing.php">Pricing</a></li>
                 </ul>
                 <ul class="footer__list">
                     <li class="footer__listItem"><a href="../token.php">Tokes</a></li>
                     <li class="footer__listItem"><a href="../blog.php">Blog</a></li>
-                    <li class="footer__listItem"><a href="../contact.scss">Contact Us</a></li>
+                    <li class="footer__listItem"><a href="../contact.php">Contact Us</a></li>
                 </ul>
                 </div>
             </div>

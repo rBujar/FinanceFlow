@@ -5,12 +5,12 @@
     </div>
     <div class="header__nav">
         <ul class="header__menu">
-            <li class="header__item"><a href="#">Home</a></li>
+            <li class="header__item"><a href="../index.php">Home</a></li>
             <li class="header__item"><a href="../about-us.php">About</a></li>
             <li class="header__item"><a href="../pricing.php">Pricing</a></li>
             <li class="header__item"><a href="../token.php">Tokens</a></li>
             <li class="header__item"><a href="../blog.php">Blog</a></li>
-            <li class="header__item"><a href="../contact.scss">Contact Us</a></li>
+            <li class="header__item"><a href="../contact.php">Contact Us</a></li>
         </ul>
         <button class="blue-btn text-sm text-bold">Download App</button>
     </div>
