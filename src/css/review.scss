@@ -32,6 +32,7 @@
         background-color: var(--primary-color-darkBlue);
         color: var(--primary-color-white);
         max-width: 360px;
+        margin: 0 auto;
     }
 
     &__user {
@@ -137,6 +138,10 @@
                 width: initial;
                 padding: 22px 50px;
             }
+        }
+
+        &__item {
+            max-width: 400px;
         }
 
         .swiper-pagination {

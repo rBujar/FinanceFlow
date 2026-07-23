@@ -51,7 +51,7 @@
                                         <li class="pricing__list text-md">Premium Support</li>
                                     </ul>
                                 </div>
-                                <button class="blue-btn text-caps">contact us</button>
+                                <button class="blue-btn"><a href="../contact.php" class="text-caps">contact us</a></button>
                             </div>
                             <div class="pricing__item">
                                 <div class="pricing__cardTitle">
@@ -69,7 +69,7 @@
                                         <li class="pricing__list text-md">Premium Support</li>
                                     </ul>
                                 </div>
-                                <button class="blue-btn text-caps">contact us</button>
+                                <button class="blue-btn"><a href="../contact.php" class="text-caps">contact us</a></button>
                             </div>
                             <div class="pricing__item">
                                 <div class="pricing__cardTitle">
@@ -87,7 +87,7 @@
                                         <li class="pricing__list text-md">Premium Support</li>
                                     </ul>
                                 </div>
-                                <button class="blue-btn text-caps">contact us</button>
+                                <button class="blue-btn"><a href="../contact.php" class="text-caps">contact us</a></button>
                             </div>
                         </div>
                     </div>
