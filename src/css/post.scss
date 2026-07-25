@@ -139,10 +139,6 @@
 
         &__selectButtons {
             @include position($direction: row);
-
-            button {
-                max-width: 115px;
-            }
         }
 
         &__content {

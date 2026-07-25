@@ -94,9 +94,9 @@
         }
 
         &__cards {
-            flex-direction: row;
+            @include position($direction: row, $justify: space-between);
             flex-wrap: wrap;
-            gap: 28px;
+            gap: 30px;
         }
 
         &__item {

@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'financeflow';
-    src: url('../font/financeflow.svg?33552974#financeflow') format('svg');
+    src: url('../font/financeflow.svg?74886802#financeflow') format('svg');
   }
 }
 */
@@ -54,11 +54,11 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-play:before { content: '\e800'; } /* '' */
-.icon-playstore:before { content: '\e801'; } /* '' */
+.icon-leftArrow:before { content: '\e800'; } /* '' */
+.icon-rightArrow:before { content: '\e801'; } /* '' */
+.icon-play:before { content: '\e802'; } /* '' */
+.icon-playstore:before { content: '\e803'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-apple:before { content: '\f179'; } /* '' */
-.icon-facebook-squared:before { content: '\f308'; } /* '' */
-.icon-leftArrow:before { content: '\e800'; } /* '' */
-.icon-rightArrow:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\f308'; } /* '' */

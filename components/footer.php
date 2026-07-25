@@ -4,7 +4,7 @@
             <a href="../index.php"><img src="../src/assets/logo.png" alt=""></a>
             <div class="footer__socials">
                 <a href="#"><i class="icon-instagram"></i></a>
-                <a href="#"><i class="icon-facebook-squared"></i></a>
+                <a href="#"><i class="icon-facebook"></i></a>
                 <a href="#"><i class="icon-linkedin"></i></a>
             </div>
         </div>
