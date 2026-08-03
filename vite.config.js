@@ -16,6 +16,9 @@ export default defineConfig({
         review: resolve(__dirname, 'src/js/review.js'),
       },
     },
+    plugins: [
+    tailwindcss(),
+  ],
   },
   
   // Don't copy public dir, we'll handle assets via imports

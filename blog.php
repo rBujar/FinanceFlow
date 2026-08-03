@@ -1,9 +1,11 @@
 <?php require_once 'vite-helper.php'; ?>
 <!doctype html>
 <html lang="en">
+
 <head>
   <?php include 'components/head.php' ?>
 </head>
+
 <body>
   <?php include 'components/header.php' ?>
   <div class="blog-bg">
@@ -215,12 +217,57 @@
               </div>
             </div>
           </a>
+          <a href="./blogPost.php">
+            <div class="post__item" data-category="apps">
+              <div class="post__image">
+                <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
+              </div>
+              <div class="post__info">
+                <div class="post__articleType">
+                  <p class="text-caps">APPS</p>
+                </div>
+                <div class="post__infoTitle">
+                  <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                  <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque
+                    viverra donec diammeo.</p>
+                </div>
+                <div class="post__author">
+                  <img src="./src/assets/author-1.png" alt="author-1">
+                  <div class="post__authorInfo">
+                    <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                    <span class="text-sm">AUGUST 2, 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./blogPost.php">
+            <div class="post__item" data-category="apps">
+              <div class="post__image">
+                <img src="./src/assets/blog-1.png" class="post__image" alt="blog-1">
+              </div>
+              <div class="post__info">
+                <div class="post__articleType">
+                  <p class="text-caps">APPS</p>
+                </div>
+                <div class="post__infoTitle">
+                  <h4 class="text-lg text-bold">The Basics about Cryptocurrency</h4>
+                  <p class="text-sm">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque
+                    viverra donec diammeo.</p>
+                </div>
+                <div class="post__author">
+                  <img src="./src/assets/author-1.png" alt="author-1">
+                  <div class="post__authorInfo">
+                    <h5 class="text-sm text-bold text-caps">Alex Turner</h5>
+                    <span class="text-sm">AUGUST 2, 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="post__pagination col-12">
           <button class="post__prev"><i class="icon-leftArrow"></i></button>
-          <p class="text-md">1</p>
-          <p class="text-md">2</p>
-          <p class="text-md">3</p>
           <button class="post__next"><i class="icon-rightArrow"></i></button>
         </div>
       </div>
@@ -229,4 +276,5 @@
   <?php include 'components/footer.php' ?>
   <?php viteEntry('src/js/blog.js'); ?>
 </body>
+
 </html>
