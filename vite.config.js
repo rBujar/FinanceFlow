@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   build: {
@@ -16,10 +17,10 @@ export default defineConfig({
         review: resolve(__dirname, 'src/js/review.js'),
       },
     },
-    plugins: [
+  },
+   plugins: [
     tailwindcss(),
   ],
-  },
   
   // Don't copy public dir, we'll handle assets via imports
   publicDir: false,

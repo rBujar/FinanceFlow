@@ -1,6 +1,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 <?php viteClient(); ?>
-<?php viteEntry('src/css/style.scss'); ?>
+<?php viteEntry('src/css/style.css'); ?>
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
 <title>Finance Flow</title>

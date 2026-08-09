@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+@import "./financeflow-icons.css";
+
+@theme {
+    --color-primary-blue: #0328ee;
+    --color-primary-white: #ffffff;
+    --color-primary-night: #010725;
+    --color-primary-darkBlue: #010d50;
+    --color-secondary-hoverBlue: #031fb4;
+    --color-secondary-grey: #ffffff1a;
+    --color-secondary-bg: #010725;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blue-btn{
+    @apply bg-primary-blue transition-colors duration-200  hover:bg-secondary-hoverBlue
+}
+
+.grey-btn{
+    @apply bg-secondary-grey transition-colors duration-200  hover:bg-primary-blue
+}
+
+.white-btn{
+    @apply bg-primary-white text-primary-blue transition-colors duration-200 hover:bg-secondary-hoverBlue hover:text-primary-white;
+}
+
+.header__hamburger--bar{
+    @apply block bg-primary-white rounded-sm w-6 h-0.5 transition-all duration-300 ease-in-out
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.review .swiper-pagination .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .review .swiper-pagination {
+        position: sticky;
+        transform: translateY(20px);
+    }
+
+    .review .swiper-slide{
+        max-width: 100vw;
+        filter: blur(2px);
+    }
+
+    .review .swiper-slide-active{
+        filter: none;
+    }
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .review .swiper-slide {
+        max-width: 600px;
+    }
+}
