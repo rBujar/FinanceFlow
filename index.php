@@ -46,7 +46,7 @@
     <section class="build container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
         <div class="build__title col-span-12 xl:col-span-6 xl:col-start-4 mb-4 lg:text-center xl:mb-20">
-          <h2 class="mb-4 text-[28px]/[36px] xl:[42px]/[55px]">Build your crypto portfolia</h2>
+          <h2 class="mb-4 text-[28px]/[36px] xl:text-[42px]/[55px] text-bold">Build your crypto portfolia</h2>
           <p class="xl:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
             tortor
             aene.</p>
@@ -301,9 +301,8 @@
             elit. Sit non neque orci amet, amet.</p>
         </div>
         <div class="article__content col-span-12 flex flex-col justify-center items-center gap-4 lg:gap-10">
-          <div
-            class="article__cards flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-between lg:w-full gap-0">
-            <div class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]">
+          <div class="article__cards flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-between lg:w-full gap-0">
+            <div class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px] 2xl:max-w-[450px]">
               <div class="article__image relative w-full">
                 <img src="./src/assets/article-1.png" alt="article-1"
                   class="rounded-tl-[40px] rounded-tr-[40px] w-full">
@@ -324,8 +323,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]">
+            <div class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px] 2xl:max-w-[450px]">
               <div class="article__image relative w-full">
                 <img src="./src/assets/article-1.png" alt="article-1"
                   class="rounded-tl-[40px] rounded-tr-[40px] w-full">
@@ -347,8 +345,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]">
+            <div class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px] 2xl:max-w-[450px]">
               <div class="article__image relative w-full">
                 <img src="./src/assets/article-1.png" alt="article-1"
                   class="rounded-tl-[40px] rounded-tr-[40px] w-full">

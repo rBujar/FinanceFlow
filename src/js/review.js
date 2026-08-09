@@ -11,33 +11,6 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
-    breakpoints: {
-        320: {
-            // slidesPerView: 1,
-            // centeredSlides: true
-        },
-        768: {
-            // slidesPerView: 2,
-        },
-        1024: {
-            // slidesPerView: 2.5,
-            // centeredSlides: true,
-        },
-        1200: {
-            // slidesPerView: 2,
-            // spaceBetween: 30,
-            // centeredSlides: true,
-        },
-        1400: {
-            slidesPerView: 2.5,
-            initialSlide: 1,
-        },
-        1700: {
-            // slidesPerView: 1,
-            // centeredSlides: true,
-        },
-    },
-    
 });
 
 const playVideo = () => {
