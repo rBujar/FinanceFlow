@@ -9,8 +9,7 @@
     <div class="aboutHero-bg bg-secondary-bg">
         <section class="aboutHero container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
             <div class="grid grid-cols-12">
-                <div
-                    class="aboutHero__title col-span-12 xl:col-span-6 xl:col-start-4 mb-10 sm:text-center lg:items-center lg:mb-[100px]">
+                <div class="aboutHero__title col-span-12 xl:col-span-6 xl:col-start-4 mb-10 sm:text-center lg:items-center lg:mb-[100px]">
                     <h1 class="mb-4 text-[38px]/[46px] lg:text-[66px]/[80px] lg:mb-5">About Finance Flow</h1>
                     <p class="lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
                         suspendisse tortor aenean dis placerat. Scelerisque imperdiet vitae dolor non aliquam.
@@ -101,13 +100,13 @@
                         eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
                         commodo diam libero vitae erat.</p>
                 </div>
-                <div class="timeline__content col-span-12 xl:col-span-6 xl:col-span-7 flex flex-col justify-center items-center gap-13">
+                <div class="timeline__content col-span-12 xl:col-span-6 xl:col-span-7 xl:col-start-6 flex flex-col justify-center items-center gap-13">
                     <div class="timeline__item flex justify-between items-start pb-10 border-b border-solid border-primary-white gap-14">
                         <div class="timeline__circle min-w-6 min-h-6 bg-primary-white rounded-full sm:mt-2"></div>
                         <div class="timeline__info text-left">
                             <h2 class="text-[28px]/[32px] mb-4">2014</h2>
                             <h4 class="text-lg uppercase mb-3">Announcement</h4>
-                            <p class="lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+                            <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
                                 vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
                         </div>
                     </div>
@@ -116,7 +115,7 @@
                         <div class="timeline__info text-left">
                             <h2 class="text-[28px]/[32px] mb-4">2016</h2>
                             <h4 class="text-lg uppercase mb-3">Announcement</h4>
-                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+                            <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
                                 vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
                         </div>
                     </div>
@@ -125,7 +124,7 @@
                         <div class="timeline__info text-left">
                             <h2 class="text-[28px]/[32px] mb-4">2018</h2>
                             <h4 class="text-lg uppercase mb-3">Announcement</h4>
-                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+                            <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
                                 vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
                         </div>
                     </div>
@@ -134,7 +133,7 @@
                         <div class="timeline__info text-left">
                             <h2 class="text-[28px]/[32px] mb-4">2022</h2>
                             <h4 class="text-lg uppercase mb-3">Announcement</h4>
-                            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+                            <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
                                 vivamus at mattis bibendum congue cras id interdum. Risus leo et.</p>
                         </div>
                     </div>

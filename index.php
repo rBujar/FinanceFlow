@@ -3,15 +3,17 @@
 <html lang="en">
 <head>
   <?php include 'components/head.php' ?>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
 </head>
 <body>
   <?php include 'components/header.php' ?>
   <div class="hero-bg bg-secondary-bg">
     <section class="hero container mx-auto px-4 py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div
-          class="hero__info flex flex-col justify-center items-center text-white gap-10 mb-10 lg:mb-0 lg:items-start col-span-12 lg:col-span-6">
+        <div class="hero__info flex flex-col justify-center items-center text-white gap-10 mb-10 lg:mb-0 lg:items-start col-span-12 lg:col-span-6">
           <div class="hero__title">
             <h1 class="text-4xl mb-3.5 xl:text-[66px]/[80px]">Buy, trade, and hold 350+ cryptocurrencies</h1>
             <p class="text-base text-sm lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
@@ -30,7 +32,7 @@
           <img src="./src/assets/laptop.png" alt="laptop" class="w-full h-auto lg:translate-x-[30%]">
         </div>
         <div class="hero__features mt-20 col-span-12 lg:mt-[140px]">
-          <p class="text-white text-center mb-6 lg:mb-[35px]">Finance flow has been featured on</p>
+          <p class="text-base lg:text-lg text-primary-white text-center mb-6 lg:mb-[35px]">Finance flow has been featured on</p>
           <div class="hero__companies flex flex-row justify-around items-center flex-wrap gap-6">
             <img src="./src/assets/company-1.png" alt="company 1" class="w-[134px] sm:w-[170px]">
             <img src="./src/assets/company-2.png" alt="company 2" class="w-[134px] sm:w-[170px]">
@@ -117,14 +119,12 @@
             <div class="rewards__image rewards__image--top col-span-8 col-start-3 lg:col-span-5 lg:col-start-1 mb-10">
               <img src="./src/assets/rewards-phones.png" alt="rewards phone" class="w-full">
             </div>
-            <div
-              class="rewards__content col-span-12 lg:col-span-5 lg:col-start-8   flex flex-col justify-center items-start gap-4">
+            <div class="rewards__content col-span-12 lg:col-span-5 lg:col-start-8 flex flex-col justify-center items-start gap-4">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
               <p class="lg:text-[18px]/[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
                 suspendisse
                 tortor aene.</p>
-              <div
-                class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:gap-5">
+              <div  class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:justify-center [&>div]:items-center [&>div]:gap-5">
                 <div class="rewards__item">
                   <img src="./src/assets/rewards-1.png" alt="rewards-1">
                   <p class="text-sm">Lowest fees in market</p>
@@ -147,8 +147,7 @@
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
               <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
                 tortor aene.</p>
-              <div
-                class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:gap-5">
+              <div class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:justify-center [&>div]:items-center [&>div]:gap-5">
                 <div class="rewards__item">
                   <img src="./src/assets/rewards-4.png" alt="rewards-4">
                   <p class="text-sm">100% Private data</p>
@@ -196,16 +195,14 @@
       <div class="grid grid-cols-12">
         <div class="review__userReviews col-span-12">
           <div class="grid grid-cols-12">
-            <div
-              class="review__header container mx-auto px-4 col-span-12 flex flex-col justify-center items-start mb-8 gap-5 lg:flex-row lg:justify-between lg:mb-[33px]">
+            <div class="review__header container mx-auto px-4 col-span-12 flex flex-col justify-center items-start mb-8 gap-5 lg:flex-row lg:justify-between lg:mb-[33px]">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] uppercase font-bold">What our users say?</h2>
               <button class="blue-btn w-full py-5 px-7 lg:w-auto lg:px-12">Download App</button>
             </div>
             <div class="swiper mySwiper col-span-12">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div
-                    class="review__item flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue max-w-[360px] md:max-w-none lg:w-[580px] my-0 mx-auto">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
                     <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
                       fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
                       faucibus senectus in”</p>
@@ -219,8 +216,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div
-                    class="review__item flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue max-w-[360px] md:max-w-none lg:w-[580px] my-0 mx-auto">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
                     <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
                       fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
                       faucibus senectus in”</p>
@@ -234,8 +230,49 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div
-                    class="review__item flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue max-w-[360px] md:max-w-none lg:w-[580px] my-0 mx-auto">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
+                    <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
+                      fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
+                      faucibus senectus in”</p>
+                    <div class="review__user flex justify-center items-center gap-5">
+                      <img src="./src/assets/user-1.png" alt="user-1">
+                      <div class="review__userInfo">
+                        <h5 class="uppercase">john carter</h5>
+                        <p class="uppercase">Role, Company</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
+                    <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
+                      fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
+                      faucibus senectus in”</p>
+                    <div class="review__user flex justify-center items-center gap-5">
+                      <img src="./src/assets/user-1.png" alt="user-1">
+                      <div class="review__userInfo">
+                        <h5 class="uppercase">john carter</h5>
+                        <p class="uppercase">Role, Company</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
+                    <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
+                      fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
+                      faucibus senectus in”</p>
+                    <div class="review__user flex justify-center items-center gap-5">
+                      <img src="./src/assets/user-1.png" alt="user-1">
+                      <div class="review__userInfo">
+                        <h5 class="uppercase">john carter</h5>
+                        <p class="uppercase">Role, Company</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__item max-w-[360px] sm:max-w-none flex flex-col justify-center items-start gap-6 border-none outline-none rounded-[40px] py-12 px-16 bg-primary-darkBlue sm:max-w-none my-0 mx-auto">
                     <p class="text-lg">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo dolor
                       fermentum dignissim et pellentesque egestas mauris, faucibus. Tellus nisi amet non at phasellus
                       faucibus senectus in”</p>

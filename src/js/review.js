@@ -1,6 +1,6 @@
-import Swiper from "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs";
 const videoButton = document.querySelector(".review__videoPlay");
 const video = document.querySelector(".review__video");
+import Swiper from 'swiper/bundle';
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 24,
@@ -11,6 +11,7 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    
 });
 
 const playVideo = () => {
