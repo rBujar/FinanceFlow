@@ -58,25 +58,20 @@
     <div class="blog-bg bg-secondary-bg">
     <section class="post container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="post__title col-span-12 mb-6 text-center flex lg:flex-row justify-between">
+        <div class="post__title col-span-12 mb-6 text-center flex flex-col lg:flex-row justify-between">
           <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] mb-4">Latest Post</h2>
           <div
             class="post__selectButtons flex flex-col justify-between items-center gap-4 [&>button]:w-full [&>button]:max-w-[355px] [&>button]:py-3 [&>button]:px-6 [&>button]:transition-all [&>button]:duration-200 lg:flex-row [&>button.selected]:!bg-primary-blue">
             <button class="post__postType grey-btn" data-filter="all">All</button>
           </div>
         </div>
-        <div
-          class="post__content col-span-12 flex flex-col justify-center items-center gap-4 lg:flex-row lg:flex-wrap lg:justify-between lg:gap-6 xl:gap-10">
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="products">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button
-                  class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">PRODUCTS</button>
-              </div>
+        <div class="post__content col-span-12 flex flex-col justify-center items-center [&>div]:mb-4 [&>div:last-child]:mb-0 lg:[&>div]:mb-0 lg:flex-row lg:flex-wrap lg:justify-between lg:gap-6 xl:gap-10">
+          <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
+            data-category="products">
+            <div class="post__image relative w-full">
+              <img src="./src/assets/article-1.png" alt="article-1" class="rounded-tl-[40px] rounded-tr-[40px] w-full">
+              <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">PRODUCTS</button>
+            </div><a href="./blogPost.php">
               <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
                 <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
                   <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
@@ -91,18 +86,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="products">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button
-                  class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">PRODUCTS</button>
-              </div>
+            </a>
+          </div>
+          <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
+            data-category="products">
+            <div class="post__image relative w-full">
+              <img src="./src/assets/article-1.png" alt="article-1" class="rounded-tl-[40px] rounded-tr-[40px] w-full">
+              <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">PRODUCTS</button>
+            </div><a href="./blogPost.php">
               <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
                 <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
                   <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
@@ -117,17 +108,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="apps">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">APPS</button>
-              </div>
+            </a>
+          </div>
+          <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
+            data-category="apps">
+            <div class="post__image relative w-full">
+              <img src="./src/assets/article-1.png" alt="article-1" class="rounded-tl-[40px] rounded-tr-[40px] w-full">
+              <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">APPS</button>
+            </div><a href="./blogPost.php">
               <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
                 <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
                   <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
@@ -142,85 +130,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="apps">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">APPS</button>
-              </div>
-              <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
-                <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
-                  <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
-                  <p class="lg:text-lg">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque
-                    viverra donec diammeo.</p>
-                </div>
-                <div class="post__author flex justify-center items-center gap-4">
-                  <img src="./src/assets/author-1.png" alt="author-1">
-                  <div class="post__authorInfo">
-                    <h5 class="uppercase">Alex Turner</h5>
-                    <span class="uppercase">AUGUST 2, 2021</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="tutorial">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button
-                  class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">TUTORIAL</button>
-              </div>
-              <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
-                <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
-                  <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
-                  <p class="lg:text-lg">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque
-                    viverra donec diammeo.</p>
-                </div>
-                <div class="post__author flex justify-center items-center gap-4">
-                  <img src="./src/assets/author-1.png" alt="author-1">
-                  <div class="post__authorInfo">
-                    <h5 class="uppercase">Alex Turner</h5>
-                    <span class="uppercase">AUGUST 2, 2021</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="./blogPost.php">
-            <div
-              class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-              data-category="tutorial">
-              <div class="post__image relative w-full">
-                <img src="./src/assets/article-1.png" alt="article-1"
-                  class="rounded-tl-[40px] rounded-tr-[40px] w-full">
-                <button
-                  class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">TUTORIAL</button>
-              </div>
-              <div class="post__info flex flex-col justify-center items-start gap-10 px-6 pt-[42px] pb-[36px]">
-                <div class="post__infoTitle pb-8 border-b border-secondary-grey pr-2">
-                  <h4 class="text-[22px]/[30px] mb-4">The Basics about Cryptocurrency</h4>
-                  <p class="lg:text-lg">Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque
-                    viverra donec diammeo.</p>
-                </div>
-                <div class="post__author flex justify-center items-center gap-4">
-                  <img src="./src/assets/author-1.png" alt="author-1">
-                  <div class="post__authorInfo">
-                    <h5 class="uppercase">Alex Turner</h5>
-                    <span class="uppercase">AUGUST 2, 2021</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
         <div class="post__pagination col-span-12 flex justify-center items-center gap-4 mt-6">
           <button class="post__prev"><i class="icon-leftArrow"></i></button>
@@ -230,6 +141,6 @@
     </section>
   </div>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
+    <?php viteEntry('src/js/blog.js'); ?>
 </body>
 </html>

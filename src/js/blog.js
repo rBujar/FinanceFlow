@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".post__postType");
 const posts = document.querySelectorAll(".post__item");
-const postsArray = [...document.querySelectorAll(".post__content > a")];
+const postsArray = [...document.querySelectorAll(".post__item")];
 const prevBtn = document.querySelector(".post__prev");
 const nextBtn = document.querySelector(".post__next");
 const pagination = document.querySelector(".post__pagination")

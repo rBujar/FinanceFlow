@@ -10,7 +10,7 @@
 </head>
 <body>
   <?php include 'components/header.php' ?>
-  <div class="hero-bg bg-secondary-bg">
+  <div class="hero-bg bg-secondary-bg  overflow-hidden">
     <section class="hero container mx-auto px-4 py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
         <div class="hero__info flex flex-col justify-center items-center text-white gap-10 mb-10 lg:mb-0 lg:items-start col-span-12 lg:col-span-6">
@@ -111,7 +111,7 @@
       </div>
     </section>
   </div>
-  <div class="rewards-bg bg-secondary-bg">
+  <div class="rewards-bg bg-secondary-bg  overflow-hidden">
     <section class="rewards container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
         <div class="rewards__card col-span-12 mb-20">
@@ -190,7 +190,7 @@
       </div>
     </section>
   </div>
-  <div class="review-bg bg-secondary-bg">
+  <div class="review-bg bg-secondary-bg overflow-hidden">
     <section class="review text-primary-white py-12 lg:p y-25 xl:py-30">
       <div class="grid grid-cols-12">
         <div class="review__userReviews col-span-12">
