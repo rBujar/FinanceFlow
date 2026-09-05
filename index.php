@@ -13,7 +13,7 @@
   <div class="hero-bg bg-secondary-bg  overflow-hidden">
     <section class="hero container mx-auto px-4 py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="hero__info flex flex-col justify-center items-center text-white gap-10 mb-10 lg:mb-0 lg:items-start col-span-12 lg:col-span-6">
+        <div class="hero__info flex flex-col justify-center items-center text-white gap-10 mb-10 lg:mb-0 lg:items-start col-span-12 lg:col-span-6" data-aos="fade" data-aos-delay="100">
           <div class="hero__title">
             <h1 class="text-4xl mb-3.5 xl:text-[66px]/[80px]">Buy, trade, and hold 350+ cryptocurrencies</h1>
             <p class="text-base text-sm lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
@@ -27,11 +27,10 @@
                 Pricing</button></a>
           </div>
         </div>
-        <div
-          class="hero__image flex flex-col justify-center items-center lg:items-end lg:w-[120%} col-span-12 lg:col-span-6">
+        <div class="hero__image flex flex-col justify-center items-center lg:items-end lg:w-[120%} col-span-12 lg:col-span-6" data-aos="fade" data-aos-delay="200">
           <img src="./src/assets/laptop.png" alt="laptop" class="w-full h-auto lg:translate-x-[30%]">
         </div>
-        <div class="hero__features mt-20 col-span-12 lg:mt-[140px]">
+        <div class="hero__features mt-20 col-span-12 lg:mt-[140px]" data-aos="fade" data-aos-delay="100">
           <p class="text-base lg:text-lg text-primary-white text-center mb-6 lg:mb-[35px]">Finance flow has been featured on</p>
           <div class="hero__companies flex flex-row justify-around items-center flex-wrap gap-6">
             <img src="./src/assets/company-1.png" alt="company 1" class="w-[134px] sm:w-[170px]">
@@ -47,15 +46,14 @@
   <div class="build-bg bg-secondary-bg">
     <section class="build container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="build__title col-span-12 xl:col-span-6 xl:col-start-4 mb-4 lg:text-center xl:mb-20">
+        <div class="build__title col-span-12 xl:col-span-6 xl:col-start-4 mb-4 lg:text-center xl:mb-20" data-aos="fade" data-aos-delay="100">
           <h2 class="mb-4 text-[28px]/[36px] xl:text-[42px]/[55px] text-bold">Build your crypto portfolia</h2>
           <p class="xl:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
             tortor
             aene.</p>
         </div>
-        <div class="build__content col-span-12 flex flex-col justify-center items-center gap-10 xl:gap-12">
-          <div
-            class="build__cards flex flex-col justify-center items-center gap-4 lg:flex-row lg:items-stretch xl:gap-6">
+        <div class="build__content col-span-12 flex flex-col justify-center items-center gap-10 xl:gap-12" data-aos="fade" data-aos-delay="200">
+          <div class="build__cards flex flex-col justify-center items-center gap-4 lg:flex-row lg:items-stretch xl:gap-6">
             <div class="build__sideCards flex flex-col justify-center items-center gap-4 xl:gap-8">
               <div
                 class="build__smallCard border-none outline-none rounded-[40px] max-w-[395px] flex flex-col justify-center items-start gap-5 bg-primary-darkBlue py-12 px-6 [&>4]:mb-8">
@@ -116,10 +114,10 @@
       <div class="grid grid-cols-12">
         <div class="rewards__card col-span-12 mb-20">
           <div class="grid grid-cols-12">
-            <div class="rewards__image rewards__image--top col-span-8 col-start-3 lg:col-span-5 lg:col-start-1 mb-10">
+            <div class="rewards__image rewards__image--top col-span-8 col-start-3 lg:col-span-5 lg:col-start-1 mb-10" data-aos="fade" data-aos-delay="100">
               <img src="./src/assets/rewards-phones.png" alt="rewards phone" class="w-full">
             </div>
-            <div class="rewards__content col-span-12 lg:col-span-5 lg:col-start-8 flex flex-col justify-center items-start gap-4">
+            <div class="rewards__content col-span-12 lg:col-span-5 lg:col-start-8 flex flex-col justify-center items-start gap-4" data-aos="fade" data-aos-delay="200">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
               <p class="lg:text-[18px]/[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
                 suspendisse
@@ -143,7 +141,7 @@
         </div>
         <div class="rewards__card col-span-12">
           <div class="grid grid-cols-12">
-            <div class="rewards__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start gap-4">
+            <div class="rewards__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start gap-4" data-aos="fade" data-aos-delay="100">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
               <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
                 tortor aene.</p>
@@ -162,7 +160,7 @@
                 </div>
               </div>
             </div>
-            <div class="rewards__image rewards__image--bottom col-span-12 lg:col-span-7 mt-10 lg:items-end lg:w-[120%]">
+            <div class="rewards__image rewards__image--bottom col-span-12 lg:col-span-7 mt-10 lg:items-end lg:w-[120%]" data-aos="fade" data-aos-delay="200">
               <img src="./src/assets/rewards-laptop.png" alt="rewards phone" class="w-full lg:translate-x-[20%]">
             </div>
           </div>
@@ -173,8 +171,7 @@
   <div class="explore-bg bg-primary-blue">
     <section class="explore container mx-auto px-4 pt-12 lg:pt-0 text-primary-white">
       <div class="grid grid-cols-12">
-        <div
-          class="explore__content col-span-12 lg:col-span-6 flex flex-col justify-center items-center lg:items-start">
+        <div class="explore__content col-span-12 lg:col-span-6 flex flex-col justify-center items-center lg:items-start" data-aos="fade" data-aos-delay="100">
           <div class="explore__title text-center mb-4 lg:text-left lg:mb-7">
             <h2 class="mb-4 text-[28px]/[36px] lg:text-[42px]/[55px]">Explore endless possibilities with FinanceFlow
             </h2>
@@ -184,7 +181,7 @@
           </div>
           <button class="white-btn mt-4 w-full py-5 px-7 lg:max-w-[210px] lg:px-10">Download App</button>
         </div>
-        <div class="explore__phone col-span-12 lg:col-span-6 flex flex-col justify-center items-center -mt-3 lg:-bt-15">
+        <div class="explore__phone col-span-12 lg:col-span-6 flex flex-col justify-center items-center -mt-3 lg:-bt-15" data-aos="fade" data-aos-delay="200">
           <img src="./src/assets/explore-phones.png" alt="rewards-phones">
         </div>
       </div>
@@ -193,7 +190,7 @@
   <div class="review-bg bg-secondary-bg overflow-hidden">
     <section class="review text-primary-white py-12 lg:p y-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="review__userReviews col-span-12">
+        <div class="review__userReviews col-span-12" data-aos="fade" data-aos-delay="100">
           <div class="grid grid-cols-12">
             <div class="review__header container mx-auto px-4 col-span-12 flex flex-col justify-center items-start mb-8 gap-5 lg:flex-row lg:justify-between lg:mb-[33px]">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] uppercase font-bold">What our users say?</h2>
@@ -292,7 +289,7 @@
         </div>
         <div class="review__info container mx-auto px-4 col-span-12 mt-[120px]">
           <div class="grid grid-cols-12">
-            <div class="review__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start">
+            <div class="review__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start" data-aos="fade" data-aos-delay="100">
               <div class="review__infoTitle">
                 <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] uppercase mb-4">Get started today</h2>
                 <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
@@ -313,13 +310,10 @@
                 </div>
               </div>
             </div>
-            <div
-              class="review__videoWrapper col-span-12 lg:col-span-5 lg:col-start-7 flex flex-cl justify-center items-center relative">
-              <button
-                class="review__videoPlay absolute bg-secondary-grey transition-opacity duration-200 ease-in-out w-[100px] h-[100px] [&.active]:invisible [&.active]:-opacity-0"><i
+            <div class="review__videoWrapper col-span-12 lg:col-span-5 lg:col-start-7 flex flex-cl justify-center items-center relative" data-aos="fade" data-aos-delay="200">
+              <button class="review__videoPlay absolute bg-secondary-grey transition-opacity duration-200 ease-in-out w-[100px] h-[100px] [&.active]:invisible [&.active]:-opacity-0"><i
                   class="icon-play text-2xl p-7 text-primary-white"></i></button>
-              <video
-                class="review__video rounded-[40px] h-100 max-w-100 block object-cover lg:max-w-[465px] xl:max-w-[645px]"
+              <video class="review__video rounded-[40px] h-100 max-w-100 block object-cover lg:max-w-[465px] xl:max-w-[645px]"
                 muted>
                 <source src="./src/assets/review-video.mp4" type="video/mp4">
               </video>
@@ -332,12 +326,12 @@
   <div class="article-bg bg-secondary-bg ">
     <section class="article container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="article__title col-span-10 lg:col-span-12 mb-6 flex lg:flex-row lg:justify-between mb-12">
+        <div class="article__title col-span-10 lg:col-span-12 mb-6 flex lg:flex-row lg:justify-between mb-12" data-aos="fade" data-aos-delay="100">
           <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] mb-4">Browse our latest news</h2>
           <p class="lg:text-lg lg:max-w-[340px] xl:max-w-[460px]">Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Sit non neque orci amet, amet.</p>
         </div>
-        <div class="article__content col-span-12 flex flex-col justify-center items-center gap-4 lg:gap-10">
+        <div class="article__content col-span-12 flex flex-col justify-center items-center gap-4 lg:gap-10" data-aos="fade" data-aos-delay="200">
           <div class="article__cards flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-between lg:w-full gap-0">
             <div class="article__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px] 2xl:max-w-[450px]">
               <div class="article__image relative w-full">
@@ -413,15 +407,13 @@
   <div class="app-bg bg-secondary-bg">
     <section class="app container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="app__title col-span-12 mb-6 lg:flex lg:flex-row lg:justify-between lg:mb-12">
+        <div class="app__title col-span-12 mb-6 lg:flex lg:flex-row lg:justify-between lg:mb-12" data-aos="fade" data-aos-delay="100">
           <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] mb-4">Download our app</h2>
           <p class="lg:text-lg lg:max-w-[340px] xl:max-w-[460px]">Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Sit non neque orci amet, amet.</p>
         </div>
-        <div
-          class="app__cards col-span-12 flex flex-col justify-center items-center gap-4 lg:flex-row lg:items-start lg:justify-between lg-gap-0">
-          <div
-            class="app__item flex flex-col justify-center items-start bg-primary-darkBlue border-none outline-none rounded-[40px] px-8 pt-8 max-w-[395px] overflow-hidden max-h-[580px] lg:max-w-[450px] lg:max-h-[665px] xl:max-w-[520px] xl:max-h-[775px] 2xl:max-w-[565px]">
+        <div class="app__cards col-span-12 flex flex-col justify-center items-center gap-4 lg:flex-row lg:items-start lg:justify-between lg-gap-0" data-aos="fade" data-aos-delay="100">
+          <div class="app__item flex flex-col justify-center items-start bg-primary-darkBlue border-none outline-none rounded-[40px] px-8 pt-8 max-w-[395px] overflow-hidden max-h-[580px] lg:max-w-[450px] lg:max-h-[665px] xl:max-w-[520px] xl:max-h-[775px] 2xl:max-w-[565px]">
             <div class="app__info mb-6">
               <h2 class="text-[28px]/[36px] xl:text-[42px]/[55px] mb-4">Download for IOS</h2>
               <p class="lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nulla integer in
@@ -455,7 +447,7 @@
     </section>
   </div>
   <?php include 'components/footer.php' ?>
-  <?php viteEntry('src/js/main.js'); ?>
+   <?php viteEntry('src/js/aos.js'); ?>
   <?php viteEntry('src/js/review.js'); ?>
 </body>
 </html>

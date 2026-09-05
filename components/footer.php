@@ -37,4 +37,8 @@
         </div>       
             <span class="footer__rights text-center mt-7 pt-7 border-top border-solid border-secondary-grey w-full lg:text-left lg:mt-[125px]">All rights reserved</span>
     </div>
+    <button class="navigation blue-btn rounded-full hidden items-center justify-center outline-0 border-0 rounded-[50%] w-[40px] h-[40px] fixed pointer right-10 bottom-5">
+        <i class="icon-upArrow text-primary-white"></i>
+    </button>
 </div>
+<?php viteEntry('src/js/navigation.js'); ?>

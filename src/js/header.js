@@ -1,6 +1,7 @@
 const hamburger = document.querySelector(".header__hamburger");
 const navbar = document.querySelector(".header__nav");
 const menuList = document.querySelectorAll(".header__item");
+const headerBg = document.querySelector(".header-bg");
 
 const noScroll = () => {
     if (window.innerWidth < 1200) {
@@ -21,3 +22,14 @@ menuList.forEach((list) => {
         noScroll();
     });
 });
+
+window.addEventListener('scroll', () => {
+    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+        headerBg.classList.add('fixedHeader')
+        headerBg.classList.remove('static')
+    }else{
+        headerBg.classList.add("static")
+        headerBg.classList.remove('fixedHeader')
+    }
+})
+

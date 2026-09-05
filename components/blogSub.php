@@ -1,5 +1,5 @@
     <div class="blogSub-bg bg-primary-blue">
-    <section class="blogSub container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
+    <section class="blogSub container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30" data-aos="fade" data-aos-delay="100">
       <div class="grid grid-cols-12">
         <div
           class="blogSub__title col-span-12 xl:col-span-6 2xl:col-span-7 flex flex-col justify-center items-center mb-5 text-center lg:flex-row lg:gap-6 lg:mb-0 lg:text-left">

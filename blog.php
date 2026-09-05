@@ -9,16 +9,14 @@
   <div class="blog-bg bg-secondary-bg">
     <section class="blog container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="blog__title col-span-12 mb-6 lg:flex lg:justify-between lg:items-center lg:mb-12">
-          <h2 class="text-[28px]/[36px] xl:[42px]/[55px] mb-4 lg:mb-0">Blog</h2>
-          <p class="teaxt-base lg:text-lg lg:max-w-[340px] lg:max-w-[420px]">Lorem ipsum dolor sit amet, consectetur
+        <div class="blog__title col-span-12 mb-6 lg:flex lg:justify-between lg:items-center lg:mb-12" data-aos="fade" data-aos-delay="100">
+          <h2 class="text-[28px]/[36px] font-bold xl:text-[66px]/[80px] mb-4 lg:mb-0">Blog</h2>
+          <p class="text-base lg:text-lg lg:max-w-[340px] lg:max-w-[420px]">Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Feugiat nulla suspendisse tortor
             aenean dis placerat.</p>
         </div>
-        <div
-          class="blog__item col-span-12 sm:col-start-3 md:col-start-4 lg:col-start-1 flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:flex-row lg:max-w-full">
-          <div
-            class="blog__image relative w-full lg:order-2 lg:rounded-tl-none lg:rounded-tr-[40px] lg:rounded-br-[40px] lg:rounded-bl-none lg:h-full">
+        <div class="blog__item col-span-12 sm:col-start-3 md:col-start-4 lg:col-start-1 flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:flex-row lg:max-w-full lg:max-h-[335px]" data-aos="fade" data-aos-delay="200">
+          <div class="blog__image relative w-full lg:order-2 lg:rounded-tl-none lg:rounded-tr-[40px] lg:rounded-br-[40px] lg:rounded-bl-none lg:h-full">
             <img src="./src/assets/article-1.png" alt="article-1"
               class="rounded-tl-[40px] rounded-tr-[40px] w-full lg:h-full lg:rounded-tl-none lg:rounded-tr-[40px] lg:rounded-br-[40px] lg:rounded-bl-none lg:h-full">
           </div>
@@ -46,7 +44,7 @@
   <div class="blog-bg bg-secondary-bg">
     <section class="post container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="post__title col-span-12 mb-6 text-center flex flex-col lg:flex-row justify-between">
+        <div class="post__title col-span-12 mb-6 text-center flex flex-col lg:flex-row justify-between" data-aos="fade" data-aos-delay="100">
           <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] mb-4">Latest Post</h2>
           <div
             class="post__selectButtons flex flex-col justify-between items-center gap-4 [&>button]:w-full [&>button]:max-w-[355px] [&>button]:py-3 [&>button]:px-6 [&>button]:transition-all [&>button]:duration-200 lg:flex-row [&>button.selected]:!bg-primary-blue">
@@ -56,7 +54,7 @@
             <button class="post__postType grey-btn" data-filter="tutorials">Tutorial</button>
           </div>
         </div>
-        <div class="post__content col-span-12 flex flex-col justify-center items-center [&>div]:mb-4 [&>div:last-child]:mb-0 lg:[&>div]:mb-0 lg:flex-row lg:flex-wrap lg:justify-between lg:gap-6 xl:gap-10">
+        <div class="post__content col-span-12 flex flex-col justify-center items-center [&>div]:mb-4 [&>div:last-child]:mb-0 lg:[&>div]:mb-0 lg:flex-row lg:flex-wrap lg:justify-between lg:gap-6 xl:gap-10" data-aos="fade" data-aos-delay="200">
           <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
             data-category="products">
             <div class="post__image relative w-full">
@@ -198,6 +196,7 @@
     </section>
   </div>
   <?php include 'components/footer.php' ?>
+  <?php viteEntry('src/js/aos.js'); ?>
   <?php viteEntry('src/js/blog.js'); ?>
 </body>
 </html>

@@ -9,7 +9,7 @@
   <div class="contact-bg bg-secondary-bg">
     <section class="contact container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="contact__content col-span-12 lg:col-span-6">
+        <div class="contact__content col-span-12 lg:col-span-6" data-aos="fade" data-aos-delay="100">
           <h1 class="text-[38px]/[46px] lg:[66px]/[80px] mb-10">Get in touch</h1>
           <div class="contact__formWrapper border-none outline-none mb-12">
             <form
@@ -53,7 +53,7 @@
             </form>
           </div>
         </div>
-        <div class="contact__info col-span-12 lg:col-span-5 lg:col-start-8">
+        <div class="contact__info col-span-12 lg:col-span-5 lg:col-start-8" data-aos="fade" data-aos-delay="150">
           <div class="contact__title mb-6 lg:mb-8">
             <h2 class="mb-5 text-[28px]/[36px] xl:[42px]/[55px]">Want to reach us directly?</h2>
             <p class="text-base text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra
@@ -80,9 +80,8 @@
     </section>
     <section class="faq container mx-auto px-4 text-primary-white pb-12 lg:pb-25 xl:pb-30">
       <div class="grid grid-cols-12">
-        <h1 class="col-span-12 text-center text-[38px]/[46px] lg:text-[66px]/[80px]">FAQ</h1>
-        <div
-          class="faq__content col-span-12 lg:col-span-8 lg:col-start-3 [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:items-start">
+        <h1 class="col-span-12 text-center text-[38px]/[46px] lg:text-[66px]/[80px]" data-aos="fade" data-aos-delay="100">FAQ</h1>
+        <div class="faq__content col-span-12 lg:col-span-8 lg:col-start-3 [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:items-start" data-aos="fade" data-aos-delay="150">
           <div class="faq__card">
             <div
               class="faq__question flex justify-between items-center w-full border-b-1 border-solid border-secondary-grey py-6">
@@ -183,6 +182,7 @@
     </section>
   </div>
   <?php include 'components/footer.php' ?>
+  <?php viteEntry('src/js/aos.js'); ?>
   <?php viteEntry('src/js/contact.js'); ?>
 </body>
 </html>

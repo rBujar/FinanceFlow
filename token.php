@@ -9,13 +9,13 @@
   <div class="token-bg bg-secondary-bg">
     <section class="token container mx-auto px-4 text-primary-white py-12 lg:py-25 xl:py-30">
       <div class="grid grid-cols-12">
-        <div class="token__title col-span-12 lg:col-span-6 lg:col-start-4 mb-10 lg:mb-[100px] lg:text-center">
+        <div class="token__title col-span-12 lg:col-span-6 lg:col-start-4 mb-10 lg:mb-[100px] lg:text-center" data-aos="fade" data-aos-delay="100">
           <h1 class="text-[38px]/[46px] lg-[66px]/[80px] mb-4">Tokens</h1>
           <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
             suspendisse tortor
             aenean dis placerat. Scelerisque</p>
         </div>
-        <div class="token__tableContainer col-span-12 overflow-x-auto">
+        <div class="token__tableContainer col-span-12 overflow-x-auto" data-aos="fade" data-aos-delay="200">
           <table class="token__table w-full [&_tr]:align-middle">
             <thead class="token__tableHead">
               <tr
@@ -112,6 +112,6 @@
     </section>
   </div>
   <?php include 'components/footer.php' ?>
-  <?php viteEntry('src/js/main.js'); ?>
+  <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>
