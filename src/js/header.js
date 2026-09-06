@@ -24,7 +24,7 @@ menuList.forEach((list) => {
 });
 
 window.addEventListener('scroll', () => {
-    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+    if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
         headerBg.classList.add('fixedHeader')
         headerBg.classList.remove('static')
     }else{

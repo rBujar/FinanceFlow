@@ -51,7 +51,7 @@ a {
 }
 
 .fixedHeader{
-    @apply position: fixed margin: auto padding: 0 width: 100% z-index: 10
+    @apply fixed mx-auto px-4 w-full z-10
 }
 
 .no-scroll {

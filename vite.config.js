@@ -9,13 +9,13 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'src/js/aos.js'),
+        aos: resolve(__dirname, 'src/js/aos.js'),
         style: resolve(__dirname, 'src/css/style.css'),
         blog: resolve(__dirname, 'src/js/blog.js'),
         contact: resolve(__dirname, 'src/js/contact.js'),
         header: resolve(__dirname, 'src/js/header.js'),
         review: resolve(__dirname, 'src/js/review.js'),
-        review: resolve(__dirname, 'src/js/navigation.js'),
+        navigation: resolve(__dirname, 'src/js/navigation.js'),
       },
     },
   },

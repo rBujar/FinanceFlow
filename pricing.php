@@ -107,6 +107,6 @@
         </section>
     </div>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/aos .js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>
