@@ -64,15 +64,15 @@
             class="contact__emailGroup flex flex-col justify-center items-start gap-6 [&>div]:flex [&>div]:justify-center [&>div]:items-center [&>div]:gap-4">
             <div class="contact__email">
               <img src="./src/assets/contact.png" alt="contact-image">
-              <p class="text-md">contact@example.com</p>
+              <p class="text-base">contact@example.com</p>
             </div>
             <div class="contact__email">
               <img src="./src/assets/contact.png" alt="contact-image">
-              <p class="text-md">support@example.com</p>
+              <p class="text-base">support@example.com</p>
             </div>
             <div class="contact__email">
               <img src="./src/assets/contact.png" alt="contact-image">
-              <p class="text-md">press@example.com</p>
+              <p class="text-base">press@example.com</p>
             </div>
           </div>
         </div>

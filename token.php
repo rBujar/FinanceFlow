@@ -32,7 +32,7 @@
                 <td class="token__coinCell min-w-[220px] lg:min-w-[250px] xl:min-w-[300px]">
                   <div class="token__coin flex justify-start items-center gap-4">
                     <img src="./src/assets/coin-1.png" alt="coin 1">
-                    <h5 class="text-md text-bold">Bitcoin</h5>
+                    <h5 class="text-base text-bold">Bitcoin</h5>
                     <span class="text-[12px] bg-primary-darkBlue rounded-full py-1 px-2">BTC</span>
                   </div>
                 </td>
@@ -51,7 +51,7 @@
                 <td class="token__coinCell min-w-[220px] lg:min-w-[250px] xl:min-w-[300px]">
                   <div class="token__coin flex justify-start items-center gap-4">
                     <img src="./src/assets/coin-2.png" alt="coin 2">
-                    <h5 class="text-md text-bold">Ethereum</h5>
+                    <h5 class="text-base text-bold">Ethereum</h5>
                     <span class="text-[12px] bg-primary-darkBlue rounded-full py-1 px-2">ETH</span>
                   </div>
                 </td>
@@ -70,7 +70,7 @@
                 <td class="token__coinCell min-w-[220px] lg:min-w-[250px] xl:min-w-[300px]">
                   <div class="token__coin flex justify-start items-center gap-4">
                     <img src="./src/assets/coin-3.png" alt="coin 3">
-                    <h5 class="text-md text-bold">Litecoin</h5>
+                    <h5 class="text-base text-bold">Litecoin</h5>
                     <span class="text-[12px] bg-primary-darkBlue rounded-full py-1 px-2">LTC</span>
                   </div>
                 </td>
@@ -89,7 +89,7 @@
                 <td class="token__coinCell min-w-[220px] lg:min-w-[250px] xl:min-w-[300px]">
                   <div class="token__coin flex justify-start items-center gap-4">
                     <img src="./src/assets/coin-4.png" alt="coin 4">
-                    <h5 class="text-md text-bold">Tron</h5>
+                    <h5 class="text-base text-bold">Tron</h5>
                     <span class="text-[12px] bg-primary-darkBlue rounded-full py-1 px-2">TRX</span>
                   </div>
                 </td>

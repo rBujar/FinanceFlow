@@ -31,7 +31,7 @@ const pageNumbers = []
 for(let i = 1; i <= totalPages; i++){
   const pageNum = document.createElement('p');
   pageNum.textContent = i;
-  pageNum.classList.add('text-md');
+  pageNum.classList.add('text-base');
 
   pageNum.addEventListener('click', ()=> showPage(i));
   pageNumbers.push(pageNum);
