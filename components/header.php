@@ -4,13 +4,13 @@
             <a href="../index.php"><img src="../src/assets/logo.png" alt="logo"></a>
         </div>
         <div class="header__nav flex flex-col justify-start items-center fixed top-15 bottom-0 -translate-x-full w-full left-0 gap-10 pt-[65px] transition-transform duration-200 ease-in-out border-none outline-none z-20 [&.active]:translate-x-0 [&.active]:duration-500 bg-secondary-bg xl:static xl:translate-x-0 xl:transition-none xl:flex-row xl:justify-between xl:pt-0 xl:bg-transparent xl:w-auto">
-            <ul class="header__menu flex flex-col justify-center items-center text-primary-white [&>li]:text-[32px] [&>li>a:hover]:underline [&>li>a:hover]:underline-offset-2 gap-10 xl:flex-row xl:gap-[30px] xl:[&>li]:text-[16px]/[16px]">
-                <li class="header__item"><a href="../index.php" class="hover:underline hover:underline-offset-2">Home</a></li>
-                <li class="header__item"><a href="../about-us.php" class="hover:underline hover:underline-offset-2">About</a></li>
-                <li class="header__item"><a href="../pricing.php" class="hover:underline hover:underline-offset-2">Pricing</a></li>
-                <li class="header__item"><a href="../token.php" class="hover:underline hover:underline-offset-2">Tokens</a></li>
-                <li class="header__item"><a href="../blog.php" class="hover:underline hover:underline-offset-2">Blog</a></li>
-                <li class="header__item"><a href="../contact.php" class="hover:underline hover:underline-offset-2">Contact Us</a></li>
+            <ul class="header__menu flex flex-col justify-center items-center text-primary-white [&>li]:text-[32px] [&>li:hover]:underline [&>li:hover]:underline-offset-4 gap-10 xl:flex-row xl:gap-[30px] xl:[&>li]:text-[16px]/[16px]">
+                <li class="header__item"><a href="../index.php" class="">Home</a></li>
+                <li class="header__item"><a href="../about-us.php" class="">About</a></li>
+                <li class="header__item"><a href="../pricing.php" class="">Pricing</a></li>
+                <li class="header__item"><a href="../token.php" class="">Tokens</a></li>
+                <li class="header__item"><a href="../blog.php" class="">Blog</a></li>
+                <li class="header__item"><a href="../contact.php" class="">Contact Us</a></li>
             </ul>
             <button class="blue-btn text-primary-white max-w-[300px] py-7 px-21 xl:max-w-[210px] xl:py-5 xl:px-10">Download App</button>
         </div>

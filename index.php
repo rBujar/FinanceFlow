@@ -22,7 +22,7 @@
               aenean dis placerat.</p>
           </div>
           <div class="hero__buttons flex flex-col gap-4 lg:flex-row lg:justify-start">
-            <button class="blue-btn w-[360px] pw- py-6 px-10 lg:max-w-[210px] lg:py-4 lg:px-6">Download app</button>
+            <button class="grey-btn w-[360px] py-6 px-10 lg:max-w-[210px] lg:py-4 lg:px-6">Download app</button>
             <a href="./pricing.php"><button class="grey-btn w-[360px] py-6 px-10 lg:max-w-[210px] lg:py-6 lg:px-10">View
                 Pricing</button></a>
           </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="rewards__content col-span-12 lg:col-span-5 lg:col-start-8 flex flex-col justify-center items-start gap-4" data-aos="fade" data-aos-delay="200">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
-              <p class="lg:text-[18px]/[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
+              <p class="lg:text-[18px]/[32px] mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
                 suspendisse
                 tortor aene.</p>
               <div  class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:justify-center [&>div]:items-center [&>div]:gap-5">
@@ -143,7 +143,7 @@
           <div class="grid grid-cols-12">
             <div class="rewards__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start gap-4" data-aos="fade" data-aos-delay="100">
               <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px]">Earn daily rewards on your idle tokens</h2>
-              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
+              <p class="lg:text-[18px]/[32px] mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
                 tortor aene.</p>
               <div class="rewards__features flex flex-col justify-center items-start gap-5 [&>div]:flex [&>div]:flex-row [&>div]:justify-center [&>div]:items-center [&>div]:gap-5">
                 <div class="rewards__item">
@@ -171,7 +171,7 @@
   <div class="explore-bg bg-primary-blue">
     <section class="explore container mx-auto px-4 pt-12 lg:pt-0 text-primary-white">
       <div class="grid grid-cols-12">
-        <div class="explore__content col-span-12 lg:col-span-6 flex flex-col justify-center items-center lg:items-start" data-aos="fade" data-aos-delay="100">
+        <div class="explore__content col-span-12 lg:col-span-6 2xl:col-span-5 flex flex-col justify-center items-center lg:items-start" data-aos="fade" data-aos-delay="100">
           <div class="explore__title text-center mb-4 lg:text-left lg:mb-7">
             <h2 class="mb-4 text-[28px]/[36px] lg:text-[42px]/[55px]">Explore endless possibilities with FinanceFlow
             </h2>
@@ -181,7 +181,7 @@
           </div>
           <button class="white-btn mt-4 w-full py-5 px-7 lg:max-w-[210px] lg:px-10">Download App</button>
         </div>
-        <div class="explore__phone col-span-12 lg:col-span-6 flex flex-col justify-center items-center -mt-3 lg:-bt-15" data-aos="fade" data-aos-delay="200">
+        <div class="explore__phone col-span-12 lg:col-span-6 2xl:col-start-7 flex flex-col justify-center items-center -mt-3 lg:-bt-15" data-aos="fade" data-aos-delay="200">
           <img src="./src/assets/explore-phones.png" alt="rewards-phones">
         </div>
       </div>
@@ -291,11 +291,11 @@
           <div class="grid grid-cols-12">
             <div class="review__content col-span-12 lg:col-span-5 flex flex-col justify-center items-start" data-aos="fade" data-aos-delay="100">
               <div class="review__infoTitle">
-                <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] uppercase mb-4">Get started today</h2>
+                <h2 class="text-[28px]/[36px] lg:text-[42px]/[55px] font-bold uppercase mb-4">Get started today</h2>
                 <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse
                   tortor aene.</p>
               </div>
-              <div class="review__infoSteps flex flex-col justify-center items-start mt-4 mb-10 gap-7 lg:mb-0">
+              <div class="review__infoSteps flex flex-col justify-center items-start mt-6 mb-10 gap-7 lg:mb-0">
                 <div class="review__step flex justify-center items-center gap-7">
                   <img src="./src/assets/review-1.png" alt="review-`">
                   <p class="">Download app</p>
@@ -306,7 +306,7 @@
                 </div>
                 <div class="review__step flex justify-center items-center gap-7">
                   <img src="./src/assets/review-3.png" alt="review-3">
-                  <p class="">Start trading</p>
+                  <p class="text-base ">Start trading</p>
                 </div>
               </div>
             </div>

@@ -41,4 +41,4 @@
         <i class="icon-upArrow text-primary-white"></i>
     </button>
 </div>
-<?php viteEntry('src/js/navigation.js'); ?>
+<?php viteEntry('src/js/navigation.js') ?>
