@@ -54,7 +54,7 @@
             <button class="post__postType grey-btn" data-filter="tutorials">Tutorial</button>
           </div>
         </div>
-        <div class="post__content col-span-12 flex flex-col justify-center items-center [&>div]:mb-4 [&>div:last-child]:mb-0 lg:[&>div]:mb-0 lg:flex-row lg:flex-wrap lg:justify-between lg:gap-6 xl:gap-10" data-aos="fade" data-aos-delay="200">
+        <div class="post__content col-span-12 flex flex-col justify-center items-center [&>div]:mb-4 [&>div:last-child]:mb-0 lg:[&>div]:mb-0 lg:flex-row lg:flex-wrap lg:justify-around lg:gap-6 xl:gap-10" data-aos="fade" data-aos-delay="200">
           <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
             data-category="products">
             <div class="post__image relative w-full">
@@ -166,7 +166,7 @@
             </a>
           </div>
           <div class="post__item flex flex-col justify-center items-start border-none outline-none rounded-[40px] bg-primary-darkBlue max-w-[395px] lg:max-w-[300px] xl:max-w-[380px]"
-            data-category="tutorial">
+            data-category="tutorials">
             <div class="post__image relative w-full">
               <img src="./src/assets/article-1.png" alt="article-1" class="rounded-tl-[40px] rounded-tr-[40px] w-full">
               <button class="blue-btn absolute bottom-0 left-6 translate-y-5 py-2 px-4 max-w-[110px]">TUTORIAL</button>
