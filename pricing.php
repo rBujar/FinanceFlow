@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="pricing__cards col-span-12 flex flex-col justify-center items-center gap-4 [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:items-start [&>div]:border-none [&>div]:outline-none [&>div]:rounded-[40px] [&>div]:bg-primary-darkBlue [&>div]:pt-[48px] [&>div]:px-[30px] [&>div]:pb-[42px] [&>div]:gap-10 [&>div]:max-w-[395px] [&>div>button]:w-full [&>div>button]:py-5 [&>div>button]:px-9 [&>div>button]:mt-4 xl:flex-row xl:gap-0 xl:justify-between [&>div]:max-h-[550px]" data-aos="fade" data-aos-delay="200">
-                            <div class="pricing__item">
+                            <!-- <div class="pricing__item">
                                 <div class="pricing__cardTitle">
                                     <div class="pricing__planType bg-primary-blue max-w-[75px] py-1 px-4 rounded-full flex justify-center items-center">
                                         <span class="uppercase text-sm">basic</span></div>
@@ -55,8 +55,8 @@
                                 </div>
                                 <button class="blue-btn"><a href="../contact.php" class="text-caps">contact
                                         us</a></button>
-                            </div>
-                            <div class="pricing__item">
+                            </div> -->
+                            <!-- <div class="pricing__item">
                                 <div class="pricing__cardTitle">
                                     <div
                                         class="pricing__planType bg-primary-blue max-w-[75px] py-1 px-4 rounded-full flex justify-center items-center">
@@ -99,7 +99,7 @@
                                 </div>
                                 <button class="blue-btn"><a href="../contact.php" class="text-caps">contact
                                         us</a></button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -108,5 +108,6 @@
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/aos.js'); ?>
+    <?php viteEntry('src/js/displayPricing.js'); ?>
 </body>
 </html>
