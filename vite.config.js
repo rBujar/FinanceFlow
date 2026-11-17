@@ -16,6 +16,7 @@ export default defineConfig({
         header: resolve(__dirname, 'src/js/header.js'),
         review: resolve(__dirname, 'src/js/review.js'),
         navigation: resolve(__dirname, 'src/js/navigation.js'),
+        displayPricing: resolve(__dirname, 'src/js/displayPricing.js'),
       },
     },
   },
