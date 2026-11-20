@@ -4,5 +4,6 @@ import { aboutUsSchema } from "./aboutUsSchema.js"
 import { tokenSchema } from "./tokensSchema.js"
 import { contactSchema } from "./contactSchema.js"
 import { blogSchema } from "./blogSchema.js"
+import { blogPostSchema } from "./blogPostSchema.js"
 
-export const schemaTypes = [homepageSchema, pricingSchema, aboutUsSchema, tokenSchema, contactSchema, blogSchema]
+export const schemaTypes = [homepageSchema, pricingSchema, aboutUsSchema, tokenSchema, contactSchema, blogSchema, blogPostSchema]

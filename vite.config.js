@@ -22,6 +22,7 @@ export default defineConfig({
         displayTokens: resolve(__dirname, 'src/js/displays/displayTokens.js'),
         displayContact: resolve(__dirname, 'src/js/displays/displayContact.js'),
         displayBlog: resolve(__dirname, 'src/js/displays/displayBlog.js'),
+        displayBlogPost: resolve(__dirname, 'src/js/displays/displayBlogPost.js'),
       },
     },
   },
