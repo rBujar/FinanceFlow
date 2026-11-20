@@ -1,12 +1,48 @@
+import { getPricingPage } from "../queries/pricing";
+import { createImageUrlBuilder } from '@sanity/image-url'
+import { sanityClient } from '../sanity'
 
-import { getPricingPlans } from "./pricing";
+const builder = createImageUrlBuilder(sanityClient)
 
-async function displayPricing() {
-    const plans = await getPricingPlans()
-    
+function urlFor(source) {
+    return builder.image(source).auto('format').url()
+}
+
+// Only changes the text if the element exists AND Sanity has a value
+function setText(element, value) {
+    if (element && value) element.textContent = value
+}
+
+// Only changes the image if the element exists AND Sanity has an image
+function setImage(element, image) {
+    if (element && image?.asset) {
+        element.src = urlFor(image)
+        if (image.alt) element.alt = image.alt
+    }
+}
+
+function displayTitle(pageTitle) {
+    if (!pageTitle) return
+
+    setText(document.querySelector('.pricing__title h1'), pageTitle.heading)
+    setText(document.querySelector('.pricing__title p'), pageTitle.description)
+}
+
+function displayTraits(traits) {
+    const elements = document.querySelectorAll('.pricing__trait')
+
+    traits?.forEach((trait, i) => {
+        const element = elements[i]
+        if (!element) return
+        setImage(element.querySelector('img'), trait.icon)
+        setText(element.querySelector('span'), trait.text)
+    })
+}
+
+function displayPlans(plans) {
     const container = document.querySelector('.pricing__cards')
 
-    if (!container) return
+    if (!container || !plans?.length) return
 
     container.innerHTML = plans.map(plan => `
         <div class="pricing__item">
@@ -43,6 +79,16 @@ async function displayPricing() {
             window.location.href = button.dataset.link
         })
     })
+}
+
+async function displayPricing() {
+    const page = await getPricingPage()
+
+    if (!page) return
+
+    displayTitle(page.pageTitle)
+    displayTraits(page.traits)
+    displayPlans(page.plans)
 }
 
 displayPricing()

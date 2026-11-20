@@ -8,7 +8,7 @@
           </h2>
         </div>
         <div
-          class="blogSub__content col-span-12 xl:col-span-6 2xl:col-span-5 flex flex-col justify-center items-center gap-5 lg:flex-row">
+          class="blogSub__content col-span-12 xl:col-span-6 2xl:col-span-5 flex flex-col justify-center items-center gap-5 lg:flex-row xl:justify-end">
           <div
             class="blogSub__inputContainer bg-primary-white rounded-full w-full py-7 px-4 max-w-[360px] lg:flex lg:justify-between lg:items-center lg:max-w-[380px] lg:py-2 lg:pr-2 lg:pl-6">
             <input type="email" name="email" placeholder="Enter email address"
