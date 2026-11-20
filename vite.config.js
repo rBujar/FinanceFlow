@@ -18,7 +18,7 @@ export default defineConfig({
         navigation: resolve(__dirname, 'src/js/navigation.js'),
         displayHomepage: resolve(__dirname, 'src/js/displays/displayHomepage.js'),
         displayPricing: resolve(__dirname, 'src/js/displays/displayPricing.js'),
-        displayAbout: resolve(__dirname, 'src/js/displays/displayAbout.js'),
+        displayAbout: resolve(__dirname, 'src/js/displays/displayAboutUs.js'),
         displayTokens: resolve(__dirname, 'src/js/displays/displayTokens.js'),
         displayContact: resolve(__dirname, 'src/js/displays/displayContact.js'),
         displayBlog: resolve(__dirname, 'src/js/displays/displayBlog.js'),
