@@ -1,4 +1,4 @@
-import { getPricingPage } from "../queries/pricing";
+import { getPricingPage } from "../queries/pricingQuery";
 import { createImageUrlBuilder } from '@sanity/image-url'
 import { sanityClient } from '../sanity'
 

@@ -1,4 +1,4 @@
-import { getAboutPage } from '../queries/aboutPageQuery'
+import { getAboutPage } from '../queries/aboutUsQuery'
 import { createImageUrlBuilder } from '@sanity/image-url'
 import { sanityClient } from '../sanity'
 

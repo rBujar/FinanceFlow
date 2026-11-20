@@ -1,4 +1,4 @@
-import { getHomepage } from '../queries/homepage'
+import { getHomepage } from '../queries/homepageQuery'
 import { createImageUrlBuilder } from '@sanity/image-url'
 import { sanityClient } from '../sanity'
 import { initReviewsSwiper } from '../review'
